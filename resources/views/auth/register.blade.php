@@ -3,7 +3,7 @@
 @section('title', 'Register - Klinik Wijaya')
 
 @section('content')
-<!-- Hero Section -->
+{{-- Hero Section --}}
 <section class="relative h-[400px] bg-gray-900">
     <div class="absolute inset-0 bg-gradient-to-r from-[#3F5499]/90 to-[#7AC6E4]/70"></div>
     <div class="relative h-full flex items-center">
@@ -16,14 +16,14 @@
     </div>
 </section>
 
-<!-- Register Form Section -->
+{{-- Register Form Section --}}
 <section class="py-20 bg-gray-50">
     <div class="max-w-md mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-white rounded-lg shadow-lg p-8">
             <form method="POST" action="{{ route('register') }}">
                 @csrf
 
-                <!-- Name -->
+                {{-- Name --}}
                 <div class="mb-6">
                     <label for="name" class="block text-gray-700 text-sm font-bold mb-2">
                         Nama Lengkap
@@ -35,7 +35,7 @@
                     @enderror
                 </div>
 
-                <!-- Email Address -->
+                {{-- Email Address --}}
                 <div class="mb-6">
                     <label for="email" class="block text-gray-700 text-sm font-bold mb-2">
                         Email
@@ -47,7 +47,7 @@
                     @enderror
                 </div>
 
-                <!-- Password -->
+                {{-- Password --}}
                 <div class="mb-6">
                     <label for="password" class="block text-gray-700 text-sm font-bold mb-2">
                         Password
@@ -59,7 +59,7 @@
                     @enderror
                 </div>
 
-                <!-- Confirm Password -->
+                {{-- Confirm Password --}}
                 <div class="mb-6">
                     <label for="password_confirmation" class="block text-gray-700 text-sm font-bold mb-2">
                         Konfirmasi Password

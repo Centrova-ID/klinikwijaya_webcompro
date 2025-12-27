@@ -3,7 +3,7 @@
 @section('title', $article->title)
 
 @section('content')
-<!-- Breadcrumb -->
+{{-- Breadcrumb --}}
 <section class="bg-gray-50 py-6">
     <div class="container mx-auto px-4">
         <nav class="flex items-center gap-2 text-sm text-gray-600">
@@ -20,14 +20,14 @@
     </div>
 </section>
 
-<!-- Article Content -->
+{{-- Article Content --}}
 <section class="py-12">
     <div class="container mx-auto px-4">
         <div class="grid lg:grid-cols-3 gap-8">
-            <!-- Main Content -->
+            {{-- Main Content --}}
             <article class="lg:col-span-2">
                 <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
-                    <!-- Article Header -->
+                    {{-- Article Header --}}
                     <div class="p-8 pb-6">
                         <div class="flex items-center gap-3 mb-4">
                             <a href="{{ route('artikel.category', $article->category->slug) }}" 
@@ -58,7 +58,7 @@
                         </div>
                     </div>
 
-                    <!-- Featured Image -->
+                    {{-- Featured Image --}}
                     @if($article->featured_image)
                         <div class="px-8">
                             <img src="{{ asset($article->featured_image) }}" alt="{{ $article->title }}" 
@@ -66,7 +66,7 @@
                         </div>
                     @endif
 
-                    <!-- Article Body -->
+                    {{-- Article Body --}}
                     <div class="px-8 pb-8">
                         @if($article->excerpt)
                             <div class="bg-[#7AC6E4] bg-opacity-10 border-l-4 border-[#3F5499] p-6 rounded-r-lg mb-8">
@@ -81,7 +81,7 @@
                         </div>
                     </div>
 
-                    <!-- Share Buttons -->
+                    {{-- Share Buttons --}}
                     <div class="px-8 pb-8 border-t border-gray-200 pt-6">
                         <div class="flex items-center justify-between">
                             <h3 class="text-lg font-bold text-gray-800">Bagikan Artikel:</h3>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
 
-                <!-- Related Articles -->
+                {{-- Related Articles --}}
                 @if($relatedArticles->count() > 0)
                     <div class="mt-12">
                         <h2 class="text-2xl font-bold text-gray-800 mb-6">Artikel Terkait</h2>
@@ -149,9 +149,9 @@
                 @endif
             </article>
 
-            <!-- Sidebar -->
+            {{-- Sidebar --}}
             <aside class="lg:col-span-1">
-                <!-- Author Box -->
+                {{-- Author Box --}}
                 <div class="bg-white rounded-xl shadow-md p-6 mb-6">
                     <h3 class="text-lg font-bold text-gray-800 mb-4">Tentang Penulis</h3>
                     <div class="flex items-center gap-3 mb-3">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
 
-                <!-- CTA Box -->
+                {{-- CTA Box --}}
                 <div class="bg-gradient-to-br from-[#3F5499] to-[#7AC6E4] rounded-xl shadow-md p-6 text-white mb-6">
                     <svg class="w-12 h-12 mb-4 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -179,7 +179,7 @@
                     </a>
                 </div>
 
-                <!-- Latest Articles Sidebar -->
+                {{-- Latest Articles Sidebar --}}
                 <div class="bg-white rounded-xl shadow-md p-6">
                     <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
                         <svg class="w-5 h-5 text-[#3F5499]" fill="none" stroke="currentColor" viewBox="0 0 24 24">

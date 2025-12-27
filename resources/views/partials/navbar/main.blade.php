@@ -1,14 +1,29 @@
+<style>
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu::before {
+        content: '';
+        position: absolute;
+        top: -8px;
+        left: 0;
+        right: 0;
+        height: 8px;
+        background: transparent;
+    }
+</style>
+
 <nav class="bg-white shadow-md sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
-            <!-- Logo -->
+            {{-- Logo --}}
             <div class="flex-shrink-0 flex items-center">
                 <a href="{{ route('home') }}" class="flex items-center space-x-3">
                     <img src="{{ asset('assts/logo/klinikwijaya.png') }}" alt="Logo Klinik Wijaya" class="w-[260px]">
                 </a>
             </div>
 
-            <!-- Desktop Navigation -->
+            {{-- Desktop Navigation --}}
             <div class="hidden lg:flex items-center space-x-1">
                 <a href="{{ route('home') }}" class="px-4 py-2 text-gray-700 hover:text-teal-600 font-medium text-sm transition-colors duration-200">
                     Home
@@ -21,15 +36,12 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </button>
-                    <div class="dropdown-menu hidden absolute left-0 mt-2 w-72 bg-white rounded-lg shadow-lg py-2 border border-gray-100">
+                    <div class="dropdown-menu hidden absolute left-0 top-full w-72 bg-white rounded-lg shadow-lg py-2 border border-gray-100">
                         <a href="{{ route('layanan.stroke-rehabilitation') }}" class="block px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors duration-200">
                             Pusat Rehabilitasi Stroke
                         </a>
                         <a href="{{ route('layanan.terapi-robotik') }}" class="block px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors duration-200">
                             Terapi Robotik
-                        </a>
-                        <a href="{{ route('layanan.spesialis-gigi') }}" class="block px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors duration-200">
-                            Spesialis Gigi
                         </a>
                         <a href="{{ route('layanan.musculosceletal') }}" class="block px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors duration-200">
                             Musculoskeletal
@@ -48,7 +60,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </button>
-                    <div class="dropdown-menu hidden absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-lg py-2 border border-gray-100">
+                    <div class="dropdown-menu hidden absolute left-0 top-full w-64 bg-white rounded-lg shadow-lg py-2 border border-gray-100">
                         <a href="{{ route('tentang-kami') }}" class="block px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors duration-200">
                             Tentang Kami
                         </a>
@@ -66,14 +78,14 @@
                 </a>
             </div>
 
-            <!-- Action Buttons -->
+            {{-- Action Buttons --}}
             <div class="hidden lg:flex items-center space-x-3">
-                <a href="{{ route('buat-janji') }}" class="px-6 py-2.5 bg-teal-600 text-white rounded-lg font-medium text-sm hover:bg-teal-700 transition-colors duration-200 shadow-md hover:shadow-lg">
+                <a href="{{ route('buat-janji') }}" class="px-6 py-2.5 bg-teal-600 text-white rounded font-medium text-sm hover:bg-teal-700 transition-colors duration-200 shadow-md hover:shadow-lg">
                     Buat Janji
                 </a>
             </div>
 
-            <!-- Mobile menu button -->
+            {{-- Mobile menu button --}}
             <div class="lg:hidden">
                 <button type="button" class="text-gray-700 hover:text-teal-600 focus:outline-none focus:text-teal-600" id="mobile-menu-button">
                     <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -84,7 +96,7 @@
         </div>
     </div>
 
-    <!-- Mobile menu -->
+    {{-- Mobile menu --}}
     <div class="hidden lg:hidden" id="mobile-menu">
         <div class="px-4 pt-2 pb-4 space-y-2 bg-white border-t border-gray-200">
             <a href="{{ route('home') }}" class="block px-4 py-3 text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-medium transition-colors duration-200">
@@ -101,7 +113,6 @@
                 <div class="hidden pl-4 space-y-1" id="layanan-submenu">
                     <a href="{{ route('layanan.stroke-rehabilitation') }}" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600">Pusat Rehabilitasi Stroke</a>
                     <a href="{{ route('layanan.terapi-robotik') }}" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600">Terapi Robotik</a>
-                    <a href="{{ route('layanan.spesialis-gigi') }}" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600">Spesialis Gigi</a>
                     <a href="{{ route('layanan.musculosceletal') }}" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600">Musculoskeletal</a>
                 </div>
             </div>

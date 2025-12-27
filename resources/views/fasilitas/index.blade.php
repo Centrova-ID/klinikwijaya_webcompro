@@ -3,7 +3,7 @@
 @section('title', 'Fasilitas - Klinik Wijaya')
 
 @section('content')
-<!-- Hero Section -->
+{{-- Hero Section --}}
 <section class="relative h-[500px] bg-gray-900">
     <div class="absolute inset-0 bg-[url('/assts/img/facilities/fasilitas-hero.jpg')] bg-cover bg-center"></div>
     <div class="absolute inset-0 bg-gradient-to-r from-[#3F5499]/90 to-[#7AC6E4]/70"></div>
@@ -17,7 +17,7 @@
     </div>
 </section>
 
-<!-- Breadcrumb -->
+{{-- Breadcrumb --}}
 <section class="bg-gray-50 py-4 border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center text-sm text-gray-600">
@@ -28,7 +28,7 @@
     </div>
 </section>
 
-<!-- Introduction Section -->
+{{-- Introduction Section --}}
 <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto text-center">
@@ -39,11 +39,11 @@
     </div>
 </section>
 
-<!-- Gallery Grid Section -->
+{{-- Gallery Grid Section --}}
 <section class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- 1. Ruang Tunggu -->
+            {{-- 1. Ruang Tunggu --}}
             <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div class="aspect-[4/3] overflow-hidden">
                     <img src="{{ asset('assts/img/facilities/ruang-tunggu.jpg') }}" loading="lazy" alt="Ruang Tunggu" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <!-- 2. Ruang Terapi -->
+            {{-- 2. Ruang Terapi --}}
             <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div class="aspect-[4/3] overflow-hidden">
                         <img src="{{ asset('assts/img/facilities/ruang-terapi.jpg') }}" loading="lazy" alt="Ruang Terapi" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
@@ -63,7 +63,7 @@
                 </div>
             </div>
 
-            <!-- 3. Kafetaria -->
+            {{-- 3. Kafetaria --}}
             <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div class="aspect-[4/3] overflow-hidden">
                     <img src="{{ asset('assts/img/facilities/kafetaria.jpg') }}" loading="lazy" alt="Kafetaria" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
@@ -73,7 +73,7 @@
                 </div>
             </div>
 
-            <!-- 4. Ruang Terapi Robotik -->
+            {{-- 4. Ruang Terapi Robotik --}}
             <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div class="aspect-[4/3] overflow-hidden">
                     <img src="{{ asset('assts/img/facilities/ruang-robotik.jpg') }}" loading="lazy" alt="Ruang Terapi Robotik" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            <!-- 5. Kolam Hidroterapi -->
+            {{-- 5. Kolam Hidroterapi --}}
             <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div class="aspect-[4/3] overflow-hidden">
                     <img src="{{ asset('assts/img/facilities/ruang-hidroterapi.jpg') }}" loading="lazy" alt="Kolam Hidroterapi" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <!-- 6. Gymnasium -->
+            {{-- 6. Gymnasium --}}
             <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div class="aspect-[4/3] overflow-hidden">
                     <img src="{{ asset('assts/img/facilities/gymnasium.jpg') }}" loading="lazy" alt="Gymnasium" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">

@@ -4,11 +4,11 @@
 
 @section('content')
 
-<!-- Login Form Section -->
+{{-- Login Form Section --}}
 <section class="py-20 bg-gray-50">
     <div class="max-w-md mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-white rounded-lg shadow-lg p-8">
-            <!-- Session Status -->
+            {{-- Session Status --}}
             @if (session('status'))
                 <div class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
                     {{ session('status') }}
@@ -18,7 +18,7 @@
             <form method="POST" action="{{ route('login') }}">
                 @csrf
 
-                <!-- Email Address -->
+                {{-- Email Address --}}
                 <div class="mb-6">
                     <label for="email" class="block text-gray-700 text-sm font-bold mb-2">
                         Email
@@ -30,7 +30,7 @@
                     @enderror
                 </div>
 
-                <!-- Password -->
+                {{-- Password --}}
                 <div class="mb-6">
                     <label for="password" class="block text-gray-700 text-sm font-bold mb-2">
                         Password
@@ -42,7 +42,7 @@
                     @enderror
                 </div>
 
-                <!-- Remember Me -->
+                {{-- Remember Me --}}
                 <div class="mb-6">
                     <label for="remember_me" class="inline-flex items-center">
                         <input id="remember_me" type="checkbox" name="remember"

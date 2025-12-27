@@ -3,15 +3,14 @@
 @section('title', 'Buat Janji Kunjungan - Klinik Wijaya')
 
 @push('styles')
-<!-- Font Awesome for icons -->
+{{-- Font Awesome for icons --}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 @endpush
 
 @section('content')
-<!-- Hero Section -->
+{{-- Hero Section --}}
 <div class="relative bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] text-white py-20">
     <div class="absolute inset-0 overflow-hidden">
-        <img src="{{ asset('assts/img/hero-bg.jpg') }}" alt="Hero Background" class="w-full h-full object-cover opacity-20">
     </div>
     <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-3xl mx-auto text-center">
@@ -21,54 +20,54 @@
     </div>
 </div>
 
-<!-- Form Section -->
+{{-- Form Section --}}
 <div class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Form Column (2/3) -->
+                {{-- Form Column (2/3) --}}
                 <div class="md:col-span-2">
-                    <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div class="bg-white rounded shadow p-8">
                         <h2 class="text-2xl font-bold text-[#3F5499] mb-6">Buat Janji Kunjungan Sekarang</h2>
                         
                         <form id="appointmentForm" class="space-y-6">
-                            <!-- Nama -->
+                            {{-- Nama --}}
                             <div>
                                 <label for="nama" class="block text-gray-700 font-semibold mb-2">
                                     Nama Lengkap <span class="text-red-500">*</span>
                                 </label>
                                 <input type="text" id="nama" name="nama" required
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent"
                                     placeholder="Masukkan nama lengkap Anda">
                             </div>
 
-                            <!-- Nomor Telepon -->
+                            {{-- Nomor Telepon --}}
                             <div>
                                 <label for="telepon" class="block text-gray-700 font-semibold mb-2">
                                     Nomor Telp/Handphone <span class="text-red-500">*</span>
                                 </label>
                                 <input type="tel" id="telepon" name="telepon" required
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent"
                                     placeholder="Contoh: 08123456789">
                             </div>
 
-                            <!-- Email -->
+                            {{-- Email --}}
                             <div>
                                 <label for="email" class="block text-gray-700 font-semibold mb-2">
                                     Email <span class="text-red-500">*</span>
                                 </label>
                                 <input type="email" id="email" name="email" required
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent"
                                     placeholder="nama@email.com">
                             </div>
 
-                            <!-- Dokter -->
+                            {{-- Dokter --}}
                             <div>
                                 <label for="dokter" class="block text-gray-700 font-semibold mb-2">
                                     Dokter Yang Ingin Ditemui <span class="text-red-500">*</span>
                                 </label>
                                 <select id="dokter" name="dokter" required
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent">
+                                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent">
                                     <option value="">-- Pilih Dokter --</option>
                                     <option value="dr. Rosiana Pradanasari Wirawan, Sp.KFR (K)">dr. Rosiana Pradanasari Wirawan, Sp.KFR (K) – Stroke, Spinal Cord Injury & Neurogenik Bladder</option>
                                     <option value="dr Erik Setiawan, Sp.KFR">dr Erik Setiawan, Sp.KFR – Musculosceletal Rehabilitation</option>
@@ -87,30 +86,30 @@
                                 </select>
                             </div>
 
-                            <!-- Tanggal Kunjungan -->
+                            {{-- Tanggal Kunjungan --}}
                             <div>
                                 <label for="tanggal" class="block text-gray-700 font-semibold mb-2">
                                     Tanggal Kunjungan <span class="text-red-500">*</span>
                                 </label>
                                 <input type="date" id="tanggal" name="tanggal" required
                                     min="{{ date('Y-m-d') }}"
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent">
+                                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent">
                             </div>
 
-                            <!-- Keterangan -->
+                            {{-- Keterangan --}}
                             <div>
                                 <label for="keterangan" class="block text-gray-700 font-semibold mb-2">
                                     Keterangan
                                 </label>
                                 <textarea id="keterangan" name="keterangan" rows="4"
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent"
                                     placeholder="Tulis keluhan atau keterangan tambahan (opsional)"></textarea>
                             </div>
 
-                            <!-- Submit Button -->
+                            {{-- Submit Button --}}
                             <div class="pt-4">
                                 <button type="submit"
-                                    class="w-full px-6 py-4 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] text-white font-bold text-lg rounded-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                                    class="w-full px-6 py-4 bg-[#3F5499] hover:bg-[#7AC6E4] text-white font-bold text-lg rounded transition">
                                     <i class="fab fa-whatsapp mr-2"></i> Kirim via WhatsApp
                                 </button>
                             </div>
@@ -118,25 +117,27 @@
                     </div>
                 </div>
 
-                <!-- Contact Info Column (1/3) -->
+                {{-- Contact Info Column (1/3) --}}
                 <div class="md:col-span-1">
-                    <!-- Chat dengan CS -->
-                    <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                    {{-- Chat dengan CS --}}
+                    <div class="bg-white rounded shadow p-6 mb-6">
                         <h3 class="text-xl font-bold text-[#3F5499] mb-4">Chatting dengan CS</h3>
                         <a href="https://wa.me/6281888757571" target="_blank"
-                            class="flex items-center justify-center space-x-2 px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors">
+                            class="flex items-center justify-center space-x-2 px-6 py-3 bg-green-500 text-white rounded hover:bg-green-600 transition-colors">
                             <i class="fab fa-whatsapp text-2xl"></i>
                             <span class="font-semibold">081-888-7571</span>
                         </a>
                     </div>
 
-                    <!-- Lokasi -->
-                    <div class="bg-white rounded-lg shadow-lg p-6">
+                    {{-- Lokasi --}}
+                    <div class="bg-white rounded shadow p-6">
                         <h3 class="text-xl font-bold text-[#3F5499] mb-4">Informasi Kontak</h3>
                         
                         <div class="space-y-4">
                             <div class="flex items-start space-x-3">
-                                <i class="fas fa-map-marker-alt text-[#7AC6E4] text-xl mt-1"></i>
+                                <div class="w-8 aspect-square flex justify-center items-center">
+                                    <i class="fas fa-map-marker-alt text-[#7AC6E4] text-xl mt-1"></i>
+                                </div>
                                 <div>
                                     <p class="font-semibold text-gray-700">LOKASI</p>
                                     <p class="text-gray-600 text-sm">JL Wijaya 2 No.26<br>Kebayoran Baru<br>Jakarta Selatan</p>
@@ -144,7 +145,9 @@
                             </div>
 
                             <div class="flex items-start space-x-3">
-                                <i class="fas fa-phone text-[#7AC6E4] text-xl mt-1"></i>
+                                <div class="w-8 aspect-square flex justify-center items-center">
+                                    <i class="fas fa-phone text-[#7AC6E4] text-xl mt-1"></i>
+                                </div>
                                 <div>
                                     <p class="font-semibold text-gray-700">TELEPON</p>
                                     <p class="text-gray-600 text-sm">(021) 722 1251</p>
@@ -152,7 +155,9 @@
                             </div>
 
                             <div class="flex items-start space-x-3">
-                                <i class="fas fa-clock text-[#7AC6E4] text-xl mt-1"></i>
+                                <div class="w-8 aspect-square flex justify-center items-center">
+                                    <i class="fas fa-clock text-[#7AC6E4] text-xl mt-1"></i>
+                                </div>
                                 <div>
                                     <p class="font-semibold text-gray-700">JAM OPERASIONAL</p>
                                     <p class="text-gray-600 text-sm">Senin - Jumat: 08:00 - 20:00<br>Sabtu: 08:00 - 17:00<br>Minggu: Tutup</p>
@@ -166,7 +171,7 @@
     </div>
 </div>
 
-<!-- WhatsApp Form Handler Script -->
+{{-- WhatsApp Form Handler Script --}}
 <script>
     document.getElementById('appointmentForm').addEventListener('submit', function(e) {
         e.preventDefault();
@@ -201,7 +206,7 @@
         }
         
         // WhatsApp number (format: 62xxxxxxxxxx)
-        const waNumber = '6281888757571';
+        const waNumber = '628118062262';
         
         // Encode message for URL
         const encodedMessage = encodeURIComponent(message);

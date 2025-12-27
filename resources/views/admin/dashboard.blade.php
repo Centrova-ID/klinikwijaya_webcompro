@@ -4,13 +4,13 @@
 @section('header', 'Dashboard Admin')
 
 @section('content')
-<!-- Welcome Banner -->
+{{-- Welcome Banner --}}
 <div class="bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] rounded-lg shadow-lg p-8 mb-8 text-white">
     <h1 class="text-3xl font-bold mb-2">Selamat Datang, {{ Auth::user()->name }}!</h1>
     <p class="text-white/90 text-lg">Kelola artikel dan event Klinik Wijaya dari sini</p>
 </div>
 
-<!-- Quick Actions -->
+{{-- Quick Actions --}}
 <div class="grid md:grid-cols-2 gap-6 mb-8">
     <a href="{{ route('admin.articles.create') }}" class="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-[#3F5499]">
         <div class="flex items-center justify-between">
@@ -41,9 +41,9 @@
     </a>
 </div>
 
-<!-- Statistics Cards -->
+{{-- Statistics Cards --}}
 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-    <!-- Articles Count Card -->
+    {{-- Articles Count Card --}}
     <div class="bg-white p-6 rounded-lg shadow">
         <div class="flex items-center justify-between mb-4">
             <div class="w-12 h-12 bg-[#3F5499]/10 rounded-lg flex items-center justify-center">
@@ -57,7 +57,7 @@
         <a href="{{ route('admin.articles.index') }}" class="text-[#3F5499] text-sm mt-2 inline-block hover:underline">Lihat semua →</a>
     </div>
 
-    <!-- Events Count Card -->
+    {{-- Events Count Card --}}
     <div class="bg-white p-6 rounded-lg shadow">
         <div class="flex items-center justify-between mb-4">
             <div class="w-12 h-12 bg-[#7AC6E4]/10 rounded-lg flex items-center justify-center">
@@ -71,7 +71,7 @@
         <a href="{{ route('admin.events.index') }}" class="text-[#7AC6E4] text-sm mt-2 inline-block hover:underline">Lihat semua →</a>
     </div>
 
-    <!-- Published Articles -->
+    {{-- Published Articles --}}
     <div class="bg-white p-6 rounded-lg shadow">
         <div class="flex items-center justify-between mb-4">
             <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
@@ -84,7 +84,7 @@
         <p class="text-3xl font-bold text-gray-900">{{ \App\Models\Article::where('status', 'published')->count() }}</p>
     </div>
 
-    <!-- Draft Articles -->
+    {{-- Draft Articles --}}
     <div class="bg-white p-6 rounded-lg shadow">
         <div class="flex items-center justify-between mb-4">
             <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
@@ -99,7 +99,7 @@
 </div>
 
 <div class="grid md:grid-cols-2 gap-6">
-    <!-- Recent Articles -->
+    {{-- Recent Articles --}}
     <div class="bg-white rounded-lg shadow">
         <div class="p-6 border-b border-gray-200 flex items-center justify-between">
             <h3 class="text-xl font-bold text-gray-900">Artikel Terbaru</h3>
@@ -127,7 +127,7 @@
         </div>
     </div>
 
-    <!-- Recent Events -->
+    {{-- Recent Events --}}
     <div class="bg-white rounded-lg shadow">
         <div class="p-6 border-b border-gray-200 flex items-center justify-between">
             <h3 class="text-xl font-bold text-gray-900">Event Terbaru</h3>

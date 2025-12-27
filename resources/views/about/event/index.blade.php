@@ -3,7 +3,7 @@
 @section('title', 'Event & Kegiatan')
 
 @section('content')
-<!-- Hero Section -->
+{{-- Hero Section --}}
 <section class="relative bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] py-16">
     <div class="container mx-auto px-4">
         <div class="text-center text-white">
@@ -13,7 +13,7 @@
     </div>
 </section>
 
-<!-- Upcoming Events Highlight -->
+{{-- Upcoming Events Highlight --}}
 @if($upcomingEvents->count() > 0)
 <section class="py-12 bg-gray-50">
     <div class="container mx-auto px-4">
@@ -84,7 +84,7 @@
 </section>
 @endif
 
-<!-- All Events -->
+{{-- All Events --}}
 <section class="py-12">
     <div class="container mx-auto px-4">
         <div class="flex items-center justify-between mb-8">
@@ -171,7 +171,7 @@
             @endforelse
         </div>
 
-        <!-- Pagination -->
+        {{-- Pagination --}}
         <div class="mt-12">
             {{ $events->links() }}
         </div>

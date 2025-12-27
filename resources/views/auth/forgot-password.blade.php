@@ -3,7 +3,7 @@
 @section('title', 'Lupa Password - Klinik Wijaya')
 
 @section('content')
-<!-- Hero Section -->
+{{-- Hero Section --}}
 <section class="relative h-[400px] bg-gray-900">
     <div class="absolute inset-0 bg-gradient-to-r from-[#3F5499]/90 to-[#7AC6E4]/70"></div>
     <div class="relative h-full flex items-center">
@@ -16,7 +16,7 @@
     </div>
 </section>
 
-<!-- Forgot Password Form Section -->
+{{-- Forgot Password Form Section --}}
 <section class="py-20 bg-gray-50">
     <div class="max-w-md mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-white rounded-lg shadow-lg p-8">
@@ -24,7 +24,7 @@
                 Lupa password Anda? Tidak masalah. Masukkan alamat email Anda dan kami akan mengirimkan link reset password.
             </div>
 
-            <!-- Session Status -->
+            {{-- Session Status --}}
             @if (session('status'))
                 <div class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
                     {{ session('status') }}
@@ -34,7 +34,7 @@
             <form method="POST" action="{{ route('password.email') }}">
                 @csrf
 
-                <!-- Email Address -->
+                {{-- Email Address --}}
                 <div class="mb-6">
                     <label for="email" class="block text-gray-700 text-sm font-bold mb-2">
                         Email

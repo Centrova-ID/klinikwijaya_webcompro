@@ -3,7 +3,7 @@
 @section('title', $event->title)
 
 @section('content')
-<!-- Breadcrumb -->
+{{-- Breadcrumb --}}
 <section class="bg-gray-50 py-6">
     <div class="container mx-auto px-4">
         <nav class="flex items-center gap-2 text-sm text-gray-600">
@@ -20,14 +20,14 @@
     </div>
 </section>
 
-<!-- Event Content -->
+{{-- Event Content --}}
 <section class="py-12">
     <div class="container mx-auto px-4">
         <div class="grid lg:grid-cols-3 gap-8">
-            <!-- Main Content -->
+            {{-- Main Content --}}
             <article class="lg:col-span-2">
                 <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
-                    <!-- Event Header -->
+                    {{-- Event Header --}}
                     <div class="p-8 pb-6">
                         <div class="flex items-center gap-3 mb-4">
                             @if(\Carbon\Carbon::parse($event->event_date)->isFuture())
@@ -48,7 +48,7 @@
                             {{ $event->title }}
                         </h1>
                         
-                        <!-- Event Info Cards -->
+                        {{-- Event Info Cards --}}
                         <div class="grid md:grid-cols-3 gap-4 mb-6">
                             <div class="bg-gradient-to-br from-[#3F5499] to-[#7AC6E4] rounded-xl p-4 text-white">
                                 <div class="flex items-start gap-3">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
 
-                    <!-- Featured Image -->
+                    {{-- Featured Image --}}
                     @if($event->featured_image)
                         <div class="px-8">
                             <img src="{{ asset($event->featured_image) }}" alt="{{ $event->title }}" 
@@ -104,7 +104,7 @@
                         </div>
                     @endif
 
-                    <!-- Event Description -->
+                    {{-- Event Description --}}
                     <div class="px-8 pb-8">
                         @if($event->description)
                             <div class="bg-blue-50 border-l-4 border-[#3F5499] p-6 rounded-r-lg mb-8">
@@ -121,7 +121,7 @@
                         </div>
                     </div>
 
-                    <!-- Registration CTA -->
+                    {{-- Registration CTA --}}
                     @if(\Carbon\Carbon::parse($event->event_date)->isFuture())
                         <div class="px-8 pb-8 border-t border-gray-200 pt-6">
                             <div class="bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] rounded-xl p-6 text-white text-center">
@@ -135,7 +135,7 @@
                         </div>
                     @endif
 
-                    <!-- Share Buttons -->
+                    {{-- Share Buttons --}}
                     <div class="px-8 pb-8 border-t border-gray-200 pt-6">
                         <div class="flex items-center justify-between">
                             <h3 class="text-lg font-bold text-gray-800">Bagikan Event:</h3>
@@ -166,7 +166,7 @@
                     </div>
                 </div>
 
-                <!-- Related Events -->
+                {{-- Related Events --}}
                 @if($relatedEvents->count() > 0)
                     <div class="mt-12">
                         <h2 class="text-2xl font-bold text-gray-800 mb-6">Event Lainnya</h2>
@@ -208,9 +208,9 @@
                 @endif
             </article>
 
-            <!-- Sidebar -->
+            {{-- Sidebar --}}
             <aside class="lg:col-span-1">
-                <!-- Quick Info -->
+                {{-- Quick Info --}}
                 <div class="bg-white rounded-xl shadow-md p-6 mb-6">
                     <h3 class="text-lg font-bold text-gray-800 mb-4">Informasi Event</h3>
                     <div class="space-y-4">
@@ -245,7 +245,7 @@
                     </div>
                 </div>
 
-                <!-- CTA Box -->
+                {{-- CTA Box --}}
                 <div class="bg-gradient-to-br from-[#3F5499] to-[#7AC6E4] rounded-xl shadow-md p-6 text-white">
                     <svg class="w-12 h-12 mb-4 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />

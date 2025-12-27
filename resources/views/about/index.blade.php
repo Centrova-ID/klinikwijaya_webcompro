@@ -3,7 +3,7 @@
 @section('title', 'Tentang Kami - Klinik Wijaya')
 
 @section('content')
-<!-- Hero Section -->
+{{-- Hero Section --}}
 <section class="relative h-[500px] bg-gray-900">
     <div class="absolute inset-0 bg-[url('/assts/img/tentang-hero.jpg')] bg-cover bg-center"></div>
     <div class="absolute inset-0 bg-gradient-to-r from-[#3F5499]/90 to-[#7AC6E4]/70"></div>
@@ -17,7 +17,7 @@
     </div>
 </section>
 
-<!-- Breadcrumb -->
+{{-- Breadcrumb --}}
 <section class="bg-gray-50 py-4 border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center text-sm text-gray-600">
@@ -28,7 +28,7 @@
     </div>
 </section>
 
-<!-- Introduction Section -->
+{{-- Introduction Section --}}
 <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto text-center">
@@ -39,7 +39,7 @@
     </div>
 </section>
 
-<!-- Alasan Memilih Kami Section -->
+{{-- Alasan Memilih Kami Section --}}
 <section class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
@@ -48,7 +48,7 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- 1. VISI & MISI -->
+            {{-- 1. VISI & MISI --}}
             <div class="bg-white border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
                 <div class="mb-4">
                     <div class="w-12 h-1 bg-[#3F5499] mb-4"></div>
@@ -59,7 +59,7 @@
                 </p>
             </div>
 
-            <!-- 2. TERPERCAYA -->
+            {{-- 2. TERPERCAYA --}}
             <div class="bg-white border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
                 <div class="mb-4">
                     <div class="w-12 h-1 bg-[#3F5499] mb-4"></div>
@@ -70,7 +70,7 @@
                 </p>
             </div>
 
-            <!-- 3. MENGUTAMAKAN KEMANDIRIAN -->
+            {{-- 3. MENGUTAMAKAN KEMANDIRIAN --}}
             <div class="bg-white border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
                 <div class="mb-4">
                     <div class="w-12 h-1 bg-[#3F5499] mb-4"></div>
@@ -81,7 +81,7 @@
                 </p>
             </div>
 
-            <!-- 4. PELAYANAN TERBAIK -->
+            {{-- 4. PELAYANAN TERBAIK --}}
             <div class="bg-white border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
                 <div class="mb-4">
                     <div class="w-12 h-1 bg-[#3F5499] mb-4"></div>
@@ -92,7 +92,7 @@
                 </p>
             </div>
 
-            <!-- 5. MEMBERIKAN DUKUNGAN PENUH -->
+            {{-- 5. MEMBERIKAN DUKUNGAN PENUH --}}
             <div class="bg-white border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
                 <div class="mb-4">
                     <div class="w-12 h-1 bg-[#3F5499] mb-4"></div>
@@ -103,7 +103,7 @@
                 </p>
             </div>
 
-            <!-- 6. LOKASI STRATEGIS -->
+            {{-- 6. LOKASI STRATEGIS --}}
             <div class="bg-white border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300">
                 <div class="mb-4">
                     <div class="w-12 h-1 bg-[#3F5499] mb-4"></div>
@@ -117,11 +117,11 @@
     </div>
 </section>
 
-<!-- Statistics Section -->
+{{-- Statistics Section --}}
 <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-3 gap-12">
-            <!-- Counter 1 -->
+            {{-- Counter 1 --}}
             <div class="text-center">
                 <div class="mb-6">
                     <div class="text-6xl font-bold text-[#3F5499] mb-2">15+</div>
@@ -132,7 +132,7 @@
                 </p>
             </div>
 
-            <!-- Counter 2 -->
+            {{-- Counter 2 --}}
             <div class="text-center">
                 <div class="mb-6">
                     <div class="text-6xl font-bold text-[#3F5499] mb-2">1000+</div>
@@ -143,7 +143,7 @@
                 </p>
             </div>
 
-            <!-- Counter 3 -->
+            {{-- Counter 3 --}}
             <div class="text-center">
                 <div class="mb-6">
                     <div class="text-6xl font-bold text-[#3F5499] mb-2">10+</div>

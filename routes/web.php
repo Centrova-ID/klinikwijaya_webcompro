@@ -56,6 +56,14 @@ Route::domain('app.klinikwijaya.test')->group(function () {
 // Main website routes (klinikwijaya.test)
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+// SEO Routes
+Route::get('/sitemap.xml', [App\Http\Controllers\SitemapController::class, 'index'])->name('sitemap');
+
+// Redirect plain /layanan to home
+Route::get('/layanan', function () {
+    return redirect()->route('home');
+});
+
 Route::get('/dashboard', function () {
     return redirect()->route('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

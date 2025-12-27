@@ -3,7 +3,7 @@
 @section('title', 'Terapi Robotik - Klinik Wijaya')
 
 @section('content')
-<!-- Hero Section -->
+{{-- Hero Section --}}
 <section class="relative h-[500px] bg-gray-900">
     <div class="absolute inset-0 bg-[url('/assts/img/terapi-robotik-hero.jpg')] bg-cover bg-center"></div>
     <div class="absolute inset-0 bg-gradient-to-r from-[#3F5499]/90 to-[#7AC6E4]/70"></div>
@@ -17,7 +17,7 @@
     </div>
 </section>
 
-<!-- Breadcrumb -->
+{{-- Breadcrumb --}}
 <section class="bg-gray-50 py-4 border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center text-sm text-gray-600">
@@ -32,7 +32,7 @@
     </div>
 </section>
 
-<!-- Introduction Section -->
+{{-- Introduction Section --}}
 <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col">
@@ -56,7 +56,7 @@
     </div>
 </section>
 
-<!-- Jenis-Jenis Robot Section -->
+{{-- Jenis-Jenis Robot Section --}}
 <section class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
@@ -68,7 +68,7 @@
         </div>
 
         <div class="space-y-16">
-            <!-- Robotik Armeo -->
+            {{-- Robotik Armeo --}}
             <div class="bg-white border border-gray-200">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="p-10 flex flex-col justify-center">
@@ -85,7 +85,7 @@
                 </div>
             </div>
 
-            <!-- Robotik Lokomat -->
+            {{-- Robotik Lokomat --}}
             <div class="bg-white border border-gray-200">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="order-2 md:order-1 h-auto md:h-auto bg-gradient-to-br from-[#7AC6E4]/20 to-[#3F5499]/20 flex items-center justify-center">
@@ -102,7 +102,7 @@
                 </div>
             </div>
 
-            <!-- Robotik Andago -->
+            {{-- Robotik Andago --}}
             <div class="bg-white border border-gray-200">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="p-10 flex flex-col justify-center">
@@ -122,7 +122,7 @@
                 </div>
             </div>
 
-            <!-- Robotik Fourier -->
+            {{-- Robotik Fourier --}}
             <div class="bg-white border border-gray-200">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="order-2 md:order-1 h-auto md:h-auto bg-gradient-to-br from-[#7AC6E4]/20 to-[#3F5499]/20 flex items-center justify-center">

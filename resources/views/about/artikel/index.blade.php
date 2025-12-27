@@ -3,7 +3,7 @@
 @section('title', 'Artikel & Berita Kesehatan')
 
 @section('content')
-<!-- Hero Section -->
+{{-- Hero Section --}}
 <section class="relative bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] py-16">
     <div class="container mx-auto px-4">
         <div class="text-center text-white">
@@ -13,7 +13,7 @@
     </div>
 </section>
 
-<!-- Featured Article -->
+{{-- Featured Article --}}
 @if($featuredArticle)
 <section class="py-12 bg-gray-50">
     <div class="container mx-auto px-4">
@@ -75,11 +75,11 @@
 </section>
 @endif
 
-<!-- Articles Grid -->
+{{-- Articles Grid --}}
 <section class="py-12">
     <div class="container mx-auto px-4">
         <div class="grid lg:grid-cols-4 gap-8">
-            <!-- Main Content -->
+            {{-- Main Content --}}
             <div class="lg:col-span-3">
                 <div class="flex items-center justify-between mb-8">
                     <h2 class="text-2xl font-bold text-gray-800">Artikel Terbaru</h2>
@@ -150,15 +150,15 @@
                     @endforelse
                 </div>
 
-                <!-- Pagination -->
+                {{-- Pagination --}}
                 <div class="mt-12">
                     {{ $articles->links() }}
                 </div>
             </div>
 
-            <!-- Sidebar -->
+            {{-- Sidebar --}}
             <aside class="lg:col-span-1">
-                <!-- Categories -->
+                {{-- Categories --}}
                 <div class="bg-white rounded-xl shadow-md p-6 mb-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                         <svg class="w-6 h-6 text-[#3F5499]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -183,7 +183,7 @@
                     </ul>
                 </div>
 
-                <!-- Info Box -->
+                {{-- Info Box --}}
                 <div class="bg-gradient-to-br from-[#3F5499] to-[#7AC6E4] rounded-xl shadow-md p-6 text-white">
                     <svg class="w-12 h-12 mb-4 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
