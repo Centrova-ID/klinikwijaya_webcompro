@@ -21,7 +21,7 @@
 <section class="bg-gray-50 py-4 border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center text-sm text-gray-600">
-            <a href="{{ route('home') }}" class="hover:text-[#3F5499]">Home</a>
+            <a href="{{ route('home') }}" class="hover:text-[#3F5499]">Beranda</a>
             <span class="mx-2">/</span>
             <span class="text-[#3F5499] font-semibold">Tentang Kami</span>
         </div>
@@ -31,7 +31,7 @@
 {{-- Introduction Section --}}
 <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
+        <div class="max-w-4xl mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
             <p class="text-gray-700 leading-relaxed text-xl">
                 Klinik Wijaya adalah klinik terpercaya untuk rehabilitasi pasca stroke di Jakarta. Terletak di kawasan strategis Wijaya, Jakarta Selatan. Kami menyediakan program rehabilitasi yang mendukung kemandirian tiap pasien untuk meningkatkan kualitas hidup mereka setelah stroke.
             </p>
@@ -42,7 +42,7 @@
 {{-- Alasan Memilih Kami Section --}}
 <section class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
+        <div class="text-center mb-16" data-aos="fade-down">
             <h2 class="text-4xl font-bold text-gray-900 mb-4">Alasan Mengapa ANDA MEMILIH KAMI ?</h2>
             <div class="w-20 h-1 bg-[#3F5499] mx-auto"></div>
         </div>

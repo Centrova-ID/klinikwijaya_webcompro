@@ -1,6 +1,6 @@
 @extends('layout.main')
 
-@section('title', 'Wijaya Dental Specialist - Klinik Wijaya')
+@section('title', 'Spesialis Gigi Wijaya - Klinik Wijaya')
 
 @section('content')
 {{-- Hero Section --}}
@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4">Wijaya Dental Specialist</h1>
+                <h1 class="text-5xl md:text-6xl font-bold mb-4">Spesialis Gigi Wijaya</h1>
                 <p class="text-xl md:text-2xl text-white/90">Perawatan Gigi Spesialis dan Terpadu</p>
             </div>
         </div>
@@ -21,11 +21,11 @@
 <section class="bg-gray-50 py-4 border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center text-sm text-gray-600">
-            <a href="{{ route('home') }}" class="hover:text-[#3F5499]">Home</a>
+            <a href="{{ route('home') }}" class="hover:text-[#3F5499]">Beranda</a>
             <span class="mx-2">/</span>
-            <span class="text-gray-500">Services</span>
+            <span class="text-gray-500">Layanan</span>
             <span class="mx-2">/</span>
-            <span class="text-[#3F5499] font-semibold">Wijaya Dental Specialist</span>
+            <span class="text-[#3F5499] font-semibold">Spesialis Gigi Wijaya</span>
         </div>
     </div>
 </section>
@@ -41,12 +41,12 @@
             </div>
 
             <div class="mt-16">
-                <div class="space-y-6 text-gray-700 leading-relaxed text-center">
+                <div class="space-y-6 text-gray-700 leading-relaxed text-center" data-aos="fade-up" data-aos-duration="1000">
                     <p class="max-w-5xl mx-auto">
-                    Wijaya Dental Specialist menghadirkan perawatan gigi yang ditangani secara profesional oleh tim Dokter Gigi Spesialis yang berpengalaman di bidangnya.
+                    Spesialis Gigi Wijaya menghadirkan perawatan gigi yang ditangani secara profesional oleh tim Dokter Gigi Spesialis yang berpengalaman di bidangnya.
                     </p>
                     <p>
-                        Adapun layanan dokter gigi spesialis yang tersedia yaitu :
+                        Adapun layanan dokter gigi spesialis yang tersedia yaitu:
                     </p>
                 </div>
             </div>
@@ -58,83 +58,83 @@
 <section class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="space-y-12">
-            {{-- 1. Ortodontik --}}
-            <div class="bg-white border border-gray-200">
+            {{-- 1. Ortodonti --}}
+            <div class="bg-white border border-gray-200" data-aos="fade-right" data-aos-duration="1000">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="p-10 flex flex-col justify-center">
-                        <h3 class="text-3xl font-bold text-gray-900 mb-3">Ortodontik</h3>
+                        <h3 class="text-3xl font-bold text-gray-900 mb-3">Ortodonti</h3>
                         <div class="w-16 h-1 bg-[#3F5499] mb-6"></div>
                         <p class="text-[#3F5499] font-semibold mb-4 text-lg">Spesialis Perapihan Gigi</p>
                         <p class="text-gray-600 leading-relaxed text-lg">
-                            Kami menyadari pentingnya untuk menjaga estetika posisi gigi, rahang dan wajah. Oleh karena itu Wijaya Dental Specialist menghadirkan Dokter Gigi Spesialis Ortodontik untuk menjaga estetika posisi gigi, rahang dan wajah dengan penggunaan kawat gigi.
+                            Kami menyadari pentingnya untuk menjaga keindahan posisi gigi, rahang dan wajah. Oleh karena itu Spesialis Gigi Wijaya menghadirkan Dokter Gigi Spesialis Ortodonti untuk menjaga keindahan posisi gigi, rahang dan wajah dengan penggunaan kawat gigi.
                         </p>
                     </div>
                     <div class="h-80 md:h-auto bg-gradient-to-br from-[#3F5499]/20 to-[#7AC6E4]/20 flex items-center justify-center">
-                        <img src="{{ asset('assts/img/layanan/prostodonsis.jpg') }}" alt="Ortodontik" class="w-full h-full object-cover">
+                        <img src="{{ asset('assts/img/layanan/prostodonsis.jpg') }}" alt="Ortodonti" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
 
-            {{-- 2. Pedodontik --}}
-            <div class="bg-white border border-gray-200">
+            {{-- 2. Kedokteran Gigi Anak --}}
+            <div class="bg-white border border-gray-200" data-aos="fade-left" data-aos-duration="1000">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="order-2 md:order-1 h-80 md:h-auto bg-gradient-to-br from-[#7AC6E4]/20 to-[#3F5499]/20 flex items-center justify-center">
-                        <img src="{{ asset('assts/img/layanan/Gigi-Anak.jpg') }}" alt="Pedodontik" class="w-full h-full object-cover">
+                        <img src="{{ asset('assts/img/layanan/Gigi-Anak.jpg') }}" alt="Kedokteran Gigi Anak" class="w-full h-full object-cover">
                     </div>
                     <div class="order-1 md:order-2 p-10 flex flex-col justify-center">
-                        <h3 class="text-3xl font-bold text-gray-900 mb-3">Pedodontik</h3>
+                        <h3 class="text-3xl font-bold text-gray-900 mb-3">Kedokteran Gigi Anak</h3>
                         <div class="w-16 h-1 bg-[#3F5499] mb-6"></div>
                         <p class="text-[#3F5499] font-semibold mb-4 text-lg">Spesialis Gigi Anak</p>
                         <p class="text-gray-600 leading-relaxed text-lg">
-                            Perawatan gigi sejak dini sangat penting untuk anak-anak. Terkadang pergi ke dokter gigi menjadi sebuah ketakutan tersendiri bagi anak-anak, oleh karena itu Wijaya Dental Specialist menghadirkan Dokter Spesialis Anak yang sudah berpengalaman untuk segala macam keluhan gigi anak, salah satu contohnya adalah gigi berlubang.
+                            Perawatan gigi sejak dini sangat penting untuk anak-anak. Terkadang pergi ke dokter gigi menjadi sebuah ketakutan tersendiri bagi anak-anak, oleh karena itu Spesialis Gigi Wijaya menghadirkan Dokter Spesialis Gigi Anak yang sudah berpengalaman untuk segala macam keluhan gigi anak, salah satu contohnya adalah gigi berlubang.
                         </p>
                     </div>
                 </div>
             </div>
 
-            {{-- 3. Endodontik --}}
-            <div class="bg-white border border-gray-200">
+            {{-- 3. Konservasi Gigi --}}
+            <div class="bg-white border border-gray-200" data-aos="fade-right" data-aos-duration="1000">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="p-10 flex flex-col justify-center">
-                        <h3 class="text-3xl font-bold text-gray-900 mb-3">Endodontik</h3>
+                        <h3 class="text-3xl font-bold text-gray-900 mb-3">Konservasi Gigi</h3>
                         <div class="w-16 h-1 bg-[#3F5499] mb-6"></div>
-                        <p class="text-[#3F5499] font-semibold mb-4 text-lg">Spesialis Syaraf Gigi</p>
+                        <p class="text-[#3F5499] font-semibold mb-4 text-lg">Spesialis Saluran Akar Gigi</p>
                         <p class="text-gray-600 leading-relaxed text-lg">
-                            Perawatan gigi spesialis syaraf gigi untuk merawat dan menyelamatkan gigi yang sudah non vital supaya dapat dipertahankan selama mungkin di dalam rongga mulut dan dapat berfungsi dengan baik. Dokter Spesialis Endodontik di Wijaya Dental Specialist melayani perawatan gigi vital dan non vital yang sudah mengenai pulpa gigi yang disebut perawatan syaraf gigi.
+                            Perawatan gigi spesialis saluran akar gigi untuk merawat dan menyelamatkan gigi yang sudah tidak vital supaya dapat dipertahankan selama mungkin di dalam rongga mulut dan dapat berfungsi dengan baik. Dokter Spesialis Konservasi Gigi di Spesialis Gigi Wijaya melayani perawatan gigi vital dan tidak vital yang sudah mengenai pulpa gigi yang disebut perawatan saluran akar gigi.
                         </p>
                     </div>
                     <div class="h-80 md:h-auto bg-gradient-to-br from-[#3F5499]/20 to-[#7AC6E4]/20 flex items-center justify-center">
-                        <img src="{{ asset('assts/img/layanan/klinik-wijaya-layanan-bedah-mulut.jpg') }}" alt="Endodontik" class="w-full h-full object-cover">
+                        <img src="{{ asset('assts/img/layanan/klinik-wijaya-layanan-bedah-mulut.jpg') }}" alt="Konservasi Gigi" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
 
-            {{-- 4. Periodontik --}}
-            <div class="bg-white border border-gray-200">
+            {{-- 4. Periodonsia --}}
+            <div class="bg-white border border-gray-200" data-aos="fade-left" data-aos-duration="1000">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="order-2 md:order-1 h-80 md:h-auto bg-gradient-to-br from-[#7AC6E4]/20 to-[#3F5499]/20 flex items-center justify-center">
-                        <img src="{{ asset('assts/img/layanan/slider-dental-specialist.png') }}" alt="Periodontik" class="w-full h-full object-cover">
+                        <img src="{{ asset('assts/img/layanan/slider-dental-specialist.png') }}" alt="Periodonsia" class="w-full h-full object-cover">
                     </div>
                     <div class="order-1 md:order-2 p-10 flex flex-col justify-center">
-                        <h3 class="text-3xl font-bold text-gray-900 mb-3">Periodontik</h3>
+                        <h3 class="text-3xl font-bold text-gray-900 mb-3">Periodonsia</h3>
                         <div class="w-16 h-1 bg-[#3F5499] mb-6"></div>
                         <p class="text-[#3F5499] font-semibold mb-4 text-lg">Spesialis Kesehatan Gusi</p>
                         <p class="text-gray-600 leading-relaxed text-lg">
-                            Jika Anda memiliki permasalahan pada gusi seperti : Pembengkakan gusi, radang gusi, gigi goyang, penurunan gusi sampai ke perawatan gusi berdarah yang suka menimbulkan aroma tidak sedap di mulut. Tidak perlu khawatir, karena Dokter Spesialis Gusi di Wijaya Dental Specialist akan mengatasi permasalahan Anda.
+                            Jika Anda memiliki permasalahan pada gusi seperti: pembengkakan gusi, peradangan gusi, gigi goyang, penurunan gusi sampai ke perawatan gusi berdarah yang suka menimbulkan aroma tidak sedap di mulut. Tidak perlu khawatir, karena Dokter Spesialis Gusi di Spesialis Gigi Wijaya akan mengatasi permasalahan Anda.
                         </p>
                     </div>
                 </div>
             </div>
 
             {{-- 5. Prostodonsia --}}
-            <div class="bg-white border border-gray-200">
+            <div class="bg-white border border-gray-200" data-aos="fade-right" data-aos-duration="1000">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="p-10 flex flex-col justify-center">
                         <h3 class="text-3xl font-bold text-gray-900 mb-3">Prostodonsia</h3>
                         <div class="w-16 h-1 bg-[#3F5499] mb-6"></div>
                         <p class="text-[#3F5499] font-semibold mb-4 text-lg">Spesialis Gigi Tiruan</p>
                         <p class="text-gray-600 leading-relaxed text-lg">
-                            Dokter gigi spesialis prostodonsia kami akan melakukan tindakan preventif dengan manajemen rongga mulut (MRM) dan tindakan kuratif bagi pasien dengan keluhan gigi lubang, gigi patah, kelainan bentuk gigi dan gigi telah dicabut. MRM diperlukan agar tindakan kuratif (perawatan dan perbaikan) dapat bertahan lebih lama.
+                            Dokter gigi spesialis prostodonsia kami akan melakukan tindakan pencegahan dengan manajemen rongga mulut dan tindakan penyembuhan bagi pasien dengan keluhan gigi berlubang, gigi patah, kelainan bentuk gigi dan gigi telah dicabut. Manajemen rongga mulut diperlukan agar tindakan penyembuhan (perawatan dan perbaikan) dapat bertahan lebih lama.
                         </p>
                     </div>
                     <div class="h-80 md:h-auto bg-gradient-to-br from-[#3F5499]/20 to-[#7AC6E4]/20 flex items-center justify-center">

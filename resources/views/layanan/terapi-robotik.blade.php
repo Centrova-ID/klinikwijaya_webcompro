@@ -21,11 +21,11 @@
 <section class="bg-gray-50 py-4 border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center text-sm text-gray-600">
-            <a href="{{ route('home') }}" class="hover:text-[#3F5499]">Home</a>
+            <a href="{{ route('home') }}" class="hover:text-[#3F5499]">Beranda</a>
             <span class="mx-2">/</span>
             <span class="text-gray-500">Layanan</span>
             <span class="mx-2">/</span>
-            <a href="{{ route('layanan.stroke-rehabilitation') }}" class="hover:text-[#3F5499]">Stroke Rehabilitation Center</a>
+            <a href="{{ route('layanan.stroke-rehabilitation') }}" class="hover:text-[#3F5499]">Pusat Rehabilitasi Stroke</a>
             <span class="mx-2">/</span>
             <span class="text-[#3F5499] font-semibold">Terapi Robotik</span>
         </div>
@@ -43,12 +43,12 @@
             </div>
 
             <div class="mt-16">
-                <div class="space-y-6 text-gray-700 leading-relaxed text-center">
+                <div class="space-y-6 text-gray-700 leading-relaxed text-center" data-aos="fade-up" data-aos-duration="1000">
                     <p>
-                    Sebagai pelopor terapi robotik untuk rehabilitasi medik pasca stroke di Indonesia klinik wijaya meyediakan berbagai fasilitas modern sabagai terobosan terkini dalam rehabilitasi medik pasca stroke dengan tujuan untuk meningkatkan fleksibilitas dan pengoptimalan gerak pasien pasca stroke.
+                    Sebagai pelopor terapi robotik untuk rehabilitasi medis pasca stroke di Indonesia, Klinik Wijaya menyediakan berbagai fasilitas modern sebagai terobosan terkini dalam rehabilitasi medis pasca stroke dengan tujuan untuk meningkatkan kelenturan dan pengoptimalan gerak pasien pasca stroke.
                     </p>
                     <p>
-                        Pengoptimalan gerak ini dibantu dengan teknologi robotik yang sudah terkomputerisasi dengan sistem, sehingga terapi menjadi efektif dan menyengangkan.
+                        Pengoptimalan gerak ini dibantu dengan teknologi robotik yang sudah terkomputerisasi dengan sistem, sehingga terapi menjadi efektif dan menyenangkan.
                     </p>
                 </div>
             </div>
@@ -59,7 +59,7 @@
 {{-- Jenis-Jenis Robot Section --}}
 <section class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
+        <div class="text-center mb-16" data-aos="fade-down">
             <h2 class="text-4xl font-bold text-gray-900 mb-4">Jenis-Jenis Robotik Terapi</h2>
             <div class="w-20 h-1 bg-[#3F5499] mx-auto mb-6"></div>
             <p class="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -69,14 +69,14 @@
 
         <div class="space-y-16">
             {{-- Robotik Armeo --}}
-            <div class="bg-white border border-gray-200">
+            <div class="bg-white border border-gray-200" data-aos="fade-up" data-aos-duration="1000">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="p-10 flex flex-col justify-center">
                         <h3 class="text-3xl font-bold text-gray-900 mb-3">Robotik Armeo</h3>
                         <div class="w-16 h-1 bg-[#3F5499] mb-6"></div>
                         <p class="text-[#3F5499] font-semibold mb-4 text-lg">Pemulihan Fungsi Lengan Atas Pasca Stroke</p>
                         <p class="text-gray-600 leading-relaxed text-lg">
-                            Melalui terapi Robotik Armeo ini, pasien dapat mengembalikan koordinasi otak dan otot lengan atas. Latihan dilengkapi dengan games yang menarik sehingga pasien tidak bosan selama menjalani latihan.
+                            Melalui terapi Robotik Armeo ini, pasien dapat mengembalikan koordinasi otak dan otot lengan atas. Latihan dilengkapi dengan permainan yang menarik sehingga pasien tidak bosan selama menjalani latihan.
                         </p>
                     </div>
                     <div class="h-auto md:h-auto bg-gradient-to-br from-[#3F5499]/20 to-[#7AC6E4]/20 flex items-center justify-center">
@@ -86,7 +86,7 @@
             </div>
 
             {{-- Robotik Lokomat --}}
-            <div class="bg-white border border-gray-200">
+            <div class="bg-white border border-gray-200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="order-2 md:order-1 h-auto md:h-auto bg-gradient-to-br from-[#7AC6E4]/20 to-[#3F5499]/20 flex items-center justify-center">
                         <img src="{{ asset('assts/img/layanan/robotik-lokomat.png') }}" alt="Robotik Lokomat" class="w-full h-full object-cover">
@@ -103,17 +103,17 @@
             </div>
 
             {{-- Robotik Andago --}}
-            <div class="bg-white border border-gray-200">
+            <div class="bg-white border border-gray-200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="p-10 flex flex-col justify-center">
                         <h3 class="text-3xl font-bold text-gray-900 mb-3">Robotik Andago</h3>
                         <div class="w-16 h-1 bg-[#3F5499] mb-6"></div>
                         <p class="text-[#3F5499] font-semibold mb-4 text-lg">Terapi Lanjutan untuk Berjalan</p>
                         <p class="text-gray-600 leading-relaxed text-lg mb-4">
-                            Alat ini berbentuk <em>Inverted U shape frame</em> dengan <em>body weight support</em> yang akan menyangga pasien selama berjalan. Andago diperuntukkan bagi pasien yang sudah memiliki pola jalan yang baik namun masih membutuhkan bantuan alat penyangga selama berjalan.
+                            Alat ini berbentuk rangka berbentuk U terbalik dengan penyangga berat badan yang akan menyangga pasien selama berjalan. Andago diperuntukkan bagi pasien yang sudah memiliki pola jalan yang baik namun masih membutuhkan bantuan alat penyangga selama berjalan.
                         </p>
                         <p class="text-gray-600 leading-relaxed text-lg">
-                            Penggunaan alat ini akan mempercepat pasien yang untuk berjalan secara mandiri tanpa penyangga.
+                            Penggunaan alat ini akan mempercepat pasien untuk berjalan secara mandiri tanpa penyangga.
                         </p>
                     </div>
                     <div class="h-auto md:h-auto bg-gradient-to-br from-[#3F5499]/20 to-[#7AC6E4]/20 flex items-center justify-center">
@@ -123,7 +123,7 @@
             </div>
 
             {{-- Robotik Fourier --}}
-            <div class="bg-white border border-gray-200">
+            <div class="bg-white border border-gray-200" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <div class="grid md:grid-cols-2 gap-0">
                     <div class="order-2 md:order-1 h-auto md:h-auto bg-gradient-to-br from-[#7AC6E4]/20 to-[#3F5499]/20 flex items-center justify-center">
                         <img src="{{ asset('assts/img/layanan/robotik-fourier.png') }}" alt="Robotik Fourier" class="w-full h-full object-cover">
@@ -133,7 +133,7 @@
                         <div class="w-16 h-1 bg-[#3F5499] mb-6"></div>
                         <p class="text-[#3F5499] font-semibold mb-4 text-lg">Melatih Gerakan Bahu, Lengan Atas dan Lengan Bawah</p>
                         <p class="text-gray-600 leading-relaxed text-lg">
-                            Robotik Fourier M2 berfungsi untuk melatih gerakan bahu, lengan atas dan lengan bawah. Alat ini juga menggunakan permainan untuk menstimulasi gerakan masing-masing sendi di bahu, siku dan sebagian gerakan pergelangan tangan.
+                            Robotik Fourier M2 berfungsi untuk melatih gerakan bahu, lengan atas dan lengan bawah. Alat ini juga menggunakan permainan untuk merangsang gerakan masing-masing sendi di bahu, siku dan sebagian gerakan pergelangan tangan.
                         </p>
                     </div>
                 </div>

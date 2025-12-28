@@ -30,7 +30,7 @@
 {{-- Gallery Grid --}}
 <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
+        <div class="text-center mb-12" data-aos="fade-down">
             <h2 class="text-4xl font-bold text-gray-900 mb-4">Dokumentasi Kami</h2>
             <div class="w-20 h-1 bg-[#3F5499] mx-auto mb-6"></div>
             <p class="text-gray-600 text-lg">Lihat fasilitas modern dan kegiatan di Klinik Wijaya</p>
@@ -39,7 +39,7 @@
         @if(count($galleryImages) > 0)
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[6px]">
             @foreach($galleryImages as $index => $image)
-            <div class="aspect-square overflow-hidden bg-gray-100 group cursor-pointer">
+            <div class="aspect-square overflow-hidden bg-gray-100 group cursor-pointer" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="{{ $index * 50 }}">
                 <img src="{{ asset($image) }}" 
                      alt="Galeri Klinik Wijaya" 
                      class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"

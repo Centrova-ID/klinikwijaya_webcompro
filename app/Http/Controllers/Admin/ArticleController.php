@@ -112,4 +112,36 @@ class ArticleController extends Controller
 
         return redirect()->route('admin.articles.index')->with('success', 'Artikel berhasil dihapus!');
     }
+
+    public function uploadImage(Request $request)
+    {
+        $request->validate([
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+
+        try {
+            if ($request->hasFile('image')) {
+                $image = $request->file('image');
+                $filename = time() . '_' . uniqid() . '.' . $image->getClientOriginalExtension();
+                $image->move(public_path('uploads/articles/content'), $filename);
+                
+                $url = asset('uploads/articles/content/' . $filename);
+                
+                return response()->json([
+                    'success' => true,
+                    'url' => $url
+                ]);
+            }
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Tidak ada gambar yang diupload'
+            ], 400);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Gagal upload gambar: ' . $e->getMessage()
+            ], 500);
+        }
+    }
 }

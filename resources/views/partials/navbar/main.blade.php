@@ -26,7 +26,7 @@
             {{-- Desktop Navigation --}}
             <div class="hidden lg:flex items-center space-x-1">
                 <a href="{{ route('home') }}" class="px-4 py-2 text-gray-700 hover:text-teal-600 font-medium text-sm transition-colors duration-200">
-                    Home
+                    Beranda
                 </a>
 
                 <div class="relative dropdown group">

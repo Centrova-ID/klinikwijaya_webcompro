@@ -13,7 +13,7 @@
     <div class="absolute inset-0 overflow-hidden">
     </div>
     <div class="container mx-auto px-4 relative z-10">
-        <div class="max-w-3xl mx-auto text-center">
+        <div class="max-w-3xl mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
             <h1 class="text-4xl md:text-5xl font-bold mb-4">BUAT JANJI KUNJUNGAN</h1>
             <p class="text-xl text-gray-100">Silakan mengisi formulir di bawah ini untuk membuat janji dengan dokter kami</p>
         </div>
@@ -26,7 +26,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-3 gap-8">
                 {{-- Form Column (2/3) --}}
-                <div class="md:col-span-2">
+                <div class="md:col-span-2" data-aos="fade-right" data-aos-duration="1000">
                     <div class="bg-white rounded shadow p-8">
                         <h2 class="text-2xl font-bold text-[#3F5499] mb-6">Buat Janji Kunjungan Sekarang</h2>
                         
@@ -118,7 +118,7 @@
                 </div>
 
                 {{-- Contact Info Column (1/3) --}}
-                <div class="md:col-span-1">
+                <div class="md:col-span-1" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     {{-- Chat dengan CS --}}
                     <div class="bg-white rounded shadow p-6 mb-6">
                         <h3 class="text-xl font-bold text-[#3F5499] mb-4">Chatting dengan CS</h3>

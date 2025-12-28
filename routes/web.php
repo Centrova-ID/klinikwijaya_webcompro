@@ -36,6 +36,7 @@ Route::domain('app.klinikwijaya.test')->group(function () {
             Route::get('/', [AdminArticleController::class, 'index'])->name('index');
             Route::get('/create', [AdminArticleController::class, 'create'])->name('create');
             Route::post('/', [AdminArticleController::class, 'store'])->name('store');
+            Route::post('/upload-image', [AdminArticleController::class, 'uploadImage'])->name('upload-image');
             Route::get('/{article}/edit', [AdminArticleController::class, 'edit'])->name('edit');
             Route::put('/{article}', [AdminArticleController::class, 'update'])->name('update');
             Route::delete('/{article}', [AdminArticleController::class, 'destroy'])->name('destroy');
