@@ -72,10 +72,6 @@
                         </a>
                     </div>
                 </div>
-
-                <a href="{{ route('galeri') }}" class="px-4 py-2 text-gray-700 hover:text-teal-600 font-medium text-sm transition-colors duration-200">
-                    Galeri
-                </a>
             </div>
 
             {{-- Action Buttons --}}
@@ -134,10 +130,6 @@
                     <a href="{{ route('event.index') }}" class="block px-4 py-2 text-sm text-gray-600 hover:text-teal-600">Event</a>
                 </div>
             </div>
-
-            <a href="{{ route('galeri') }}" class="block px-4 py-3 text-gray-700 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-medium transition-colors duration-200">
-                Galeri
-            </a>
 
             <div class="pt-4">
                 <a href="{{ route('buat-janji') }}" class="block text-center px-6 py-3 bg-teal-600 text-white rounded-lg font-medium hover:bg-teal-700 transition-colors duration-200">
