@@ -182,7 +182,19 @@
         <div class="space-y-16">
             {{-- Hydrotherapy --}}
             <div class="grid md:grid-cols-2 gap-12 items-center">
-                <img src="{{ asset('assts/img/layanan/hydroterapi.png') }}" alt="">
+                <div style="pointer-events: none; width: 560px; height: 315px; overflow: hidden;">
+                  <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/bdCmDdKnJWg?autoplay=1&mute=1&controls=0&loop=1&playlist=bdCmDdKnJWg&modestbranding=1&rel=0&iv_load_policy=3&fs=0&color=white&disablekb=1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    style="border:0;"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                  </iframe>
+                </div>
                 <div class="order-1 md:order-2">
                     <h3 class="text-3xl font-bold text-gray-900 mb-4">Hidroterapi</h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">Hidroterapi dengan kolam yang menggunakan sistem pengolahan air osmosis balik untuk menjaga kualitas dan kebersihan air sehingga selalu aman bagi pasien. Suhu air dibuat 33° agar nyaman bagi pasien dan membantu relaksasi otot saat terapi.</p>
