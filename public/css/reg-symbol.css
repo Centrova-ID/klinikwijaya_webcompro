@@ -1,0 +1,4 @@
+.reg-symbol {
+    font-size: 40%; /* Mengecilkan ukuran sebesar 25% */
+    vertical-align: super; /* Opsional: membuatnya jadi superscript agar lebih rapi */
+  }

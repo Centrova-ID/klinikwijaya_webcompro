@@ -1,0 +1,275 @@
+
+{{-- CTA Section --}}
+<section class="py-20 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] hidden">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+            Bergabunglah dengan Ribuan Pasien Kami
+        </h2>
+        <p class="text-xl text-white/90 mb-8">
+            Percayakan kesehatan Anda kepada tim profesional kami
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#" class="inline-block px-8 py-4 bg-white text-[#3F5499] font-semibold hover:bg-gray-100 transition-colors duration-300">
+                Buat Janji Konsultasi
+            </a>
+            <a href="https://wa.me/628118062262" target="_blank" class="inline-block px-8 py-4 bg-transparent border-2 border-white text-white font-semibold hover:bg-white hover:text-[#3F5499] transition-colors duration-300">
+                Hubungi Via WhatsApp
+            </a>
+        </div>
+    </div>
+</section>
+
+
+{{-- FAQ Section --}}
+<section class="py-20 bg-gradient-to-br from-slate-50 to-teal-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-slate-900 mb-3">Pertanyaan yang Sering Diajukan</h2>
+        </div>
+
+        <div class="space-y-3">
+            {{-- FAQ Item 1 --}}
+            <div class="bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-md">
+                <button onclick="toggleFaq(1)" class="w-full px-6 py-5 text-left flex items-start justify-between gap-4 group">
+                    <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors flex-1">Apa keunggulan utama rehabilitasi robotik dibandingkan terapi manual?</span>
+                    <svg id="faq-icon-1" class="w-5 h-5 text-teal-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="faq-content-1" class="max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="px-6 pb-5 text-slate-700 leading-relaxed">
+                        Terapi robotik menawarkan presisi dan intensitas yang tidak dapat dicapai secara manual. Robot kami mampu melakukan ribuan repetisi gerakan yang identik dalam satu sesi untuk merangsang neuroplastisitas otak. Selain itu, sistem kami dilengkapi dengan sensor data objektif untuk memantau perkembangan sekecil apa pun pada kekuatan otot dan pola gerak Anda.
+                    </div>
+                </div>
+            </div>
+
+            {{-- FAQ Item 2 --}}
+            <div class="bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-md">
+                <button onclick="toggleFaq(2)" class="w-full px-6 py-5 text-left flex items-start justify-between gap-4 group">
+                    <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors flex-1">Apakah terapi robotik aman untuk pasien lanjut usia?</span>
+                    <svg id="faq-icon-2" class="w-5 h-5 text-teal-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="faq-content-2" class="max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="px-6 pb-5 text-slate-700 leading-relaxed">
+                        Sangat aman. Teknologi kami dirancang dengan sistem pengaman otomatis dan suspensi penyangga berat badan. Setiap sesi didampingi oleh terapis ahli yang memantau parameter vital dan kenyamanan pasien. Robot justru meminimalisir risiko cedera atau jatuh yang mungkin terjadi pada terapi konvensional.
+                    </div>
+                </div>
+            </div>
+
+            {{-- FAQ Item 3 --}}
+            <div class="bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-md">
+                <button onclick="toggleFaq(3)" class="w-full px-6 py-5 text-left flex items-start justify-between gap-4 group">
+                    <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors flex-1">Berapa lama durasi satu sesi terapi di Klinik Wijaya?</span>
+                    <svg id="faq-icon-3" class="w-5 h-5 text-teal-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="faq-content-3" class="max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="px-6 pb-5 text-slate-700 leading-relaxed">
+                        Umumnya, satu sesi rehabilitasi berlangsung selama 45 hingga 60 menit, tergantung pada kondisi fisik pasien dan jenis perangkat yang digunakan. Tim dokter kami akan menentukan frekuensi latihan yang optimal setelah melakukan asesmen awal.
+                    </div>
+                </div>
+            </div>
+
+            {{-- FAQ Item 4 --}}
+            <div class="bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-md">
+                <button onclick="toggleFaq(4)" class="w-full px-6 py-5 text-left flex items-start justify-between gap-4 group">
+                    <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors flex-1">Saya sudah menderita stroke selama lebih dari satu tahun, apakah masih bisa menjalani terapi ini?</span>
+                    <svg id="faq-icon-4" class="w-5 h-5 text-teal-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="faq-content-4" class="max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="px-6 pb-5 text-slate-700 leading-relaxed">
+                        Tentu bisa. Meskipun periode "Golden Period" (6 bulan pertama) adalah waktu paling krusial, pengalaman kami selama 20 tahun menunjukkan bahwa pasien stroke kronis (di atas 1 tahun) tetap bisa mendapatkan peningkatan kualitas hidup dan kemandirian fungsional melalui stimulasi robotik yang intensif.
+                    </div>
+                </div>
+            </div>
+
+            {{-- FAQ Item 5 --}}
+            <div class="bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-md">
+                <button onclick="toggleFaq(5)" class="w-full px-6 py-5 text-left flex items-start justify-between gap-4 group">
+                    <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors flex-1">Apakah Klinik Wijaya menerima pasien dengan kondisi medis lain selain stroke?</span>
+                    <svg id="faq-icon-5" class="w-5 h-5 text-teal-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="faq-content-5" class="max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="px-6 pb-5 text-slate-700 leading-relaxed">
+                        Fokus utama kami adalah rehabilitasi stroke, namun teknologi robotik kami juga sangat efektif untuk kondisi neurologis dan muskuloskeletal lainnya, seperti:
+                        <ul class="mt-3 space-y-2 ml-4">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-teal-600 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Cedera Saraf Tulang Belakang (Spinal Cord Injury)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-teal-600 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Cerebral Palsy</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-teal-600 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Penyakit Parkinson</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-teal-600 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>Pemulihan pasca-operasi ortopedi besar</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            {{-- FAQ Item 6 --}}
+            <div class="bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-md">
+                <button onclick="toggleFaq(6)" class="w-full px-6 py-5 text-left flex items-start justify-between gap-4 group">
+                    <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors flex-1">Bagaimana cara memulai program rehabilitasi di Klinik Wijaya?</span>
+                    <svg id="faq-icon-6" class="w-5 h-5 text-teal-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="faq-content-6" class="max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="px-6 pb-5 text-slate-700 leading-relaxed">
+                        Prosesnya sangat sederhana:
+                        <ol class="mt-3 space-y-2 ml-4 list-decimal list-inside">
+                            <li><strong>Konsultasi Awal:</strong> Janji temu dengan dokter spesialis rehabilitasi medik kami</li>
+                            <li><strong>Asesmen:</strong> Evaluasi fisik menyeluruh untuk menentukan target pemulihan</li>
+                            <li><strong>Program Kustom:</strong> Penyusunan jadwal dan metode terapi (robotik & konvensional) yang sesuai dengan kebutuhan Anda</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            {{-- FAQ Item 7 --}}
+            <div class="bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-md">
+                <button onclick="toggleFaq(7)" class="w-full px-6 py-5 text-left flex items-start justify-between gap-4 group">
+                    <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors flex-1">Di mana lokasi Klinik Wijaya dan bagaimana cara membuat janji temu?</span>
+                    <svg id="faq-icon-7" class="w-5 h-5 text-teal-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="faq-content-7" class="max-h-0 overflow-hidden transition-all duration-300">
+                    <div class="px-6 pb-5 text-slate-700 leading-relaxed">
+                        Kami berlokasi strategis di Jakarta. Anda dapat menghubungi kami melalui tombol WhatsApp di pojok kanan bawah website ini atau menghubungi layanan pelanggan kami di nomor <strong>021-7221251</strong> untuk menentukan jadwal kunjungan.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- CTA --}}
+        <div class="mt-12 text-center">
+            <p class="text-lg font-semibold text-slate-900 mb-6">Masih memiliki pertanyaan yang belum terjawab?</p>
+            <a href="https://wa.me/628118062262" target="_blank" class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Hubungi Kami Sekarang
+            </a>
+        </div>
+    </div>
+</section>
+
+<script>
+function toggleFaq(index) {
+    const content = document.getElementById(`faq-content-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    
+    if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+        content.style.maxHeight = '0px';
+        icon.style.transform = 'rotate(0deg)';
+    } else {
+        // Close all other FAQs
+        for (let i = 1; i <= 7; i++) {
+            if (i !== index) {
+                const otherContent = document.getElementById(`faq-content-${i}`);
+                const otherIcon = document.getElementById(`faq-icon-${i}`);
+                otherContent.style.maxHeight = '0px';
+                otherIcon.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        content.style.maxHeight = content.scrollHeight + 'px';
+        icon.style.transform = 'rotate(180deg)';
+    }
+}
+</script>
+
+{{-- Contact & Footer --}}
+<section class="py-20 bg-neutral-100 text-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold mb-2">HUBUNGI KAMI</h2>
+            <p class="text-neutral-800">Kami siap melayani Anda sepenuh hati</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-12">
+            {{-- Contact Info --}}
+            <div>
+                <h3 class="text-xl font-bold mb-6">KONTAK</h3>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 mr-3 mt-1 flex-shrink-0 text-teal-700" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <p>JL Wijaya 2 No.26 Kebayoran Baru Jakarta Selatan – Jakarta</p>
+                    </div>
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 mr-3 flex-shrink-0 text-teal-700" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        <div>
+                            <p>(021) 722 1251</p>
+                            <p>+628118062262 (WA)</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 mr-3 flex-shrink-0 text-teal-700" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                        </svg>
+                        <p>Senin – Sabtu 08:00 – 16:00</p>
+                    </div>
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 mr-3 flex-shrink-0 text-teal-700" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <p>care.klinikwijaya@gmail.com</p>
+                    </div>
+                    <div class="flex space-x-4 mt-6">
+                        {{-- Facebook --}}
+                        <a href="https://www.facebook.com/klinik.wijaya" class="w-10 h-10 bg-teal-600/10 hover:bg-teal-600 text-teal-700 hover:text-white flex items-center justify-center transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        {{-- Instagram --}}
+                        <a href="https://www.instagram.com/klinikwijaya/" class="w-10 h-10 bg-teal-600/10 hover:bg-teal-600 text-teal-700 hover:text-white flex items-center justify-center transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        {{-- YouTube --}}
+                        <a href="https://www.youtube.com/channel/UCGnUUdARUa3VW_Sa_WfHqAw?" class="w-10 h-10 bg-teal-600/10 hover:bg-teal-600 text-teal-700 hover:text-white flex items-center justify-center transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-2 h-[360px]">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6620.489288817791!2d106.803291!3d-6.251008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1710e2d8b9b%3A0x3b1fd7dfb7447343!2sKlinik%20Wijaya%20-%20Terapi%20Stroke%20di%20Jakarta%20Dengan%20Teknologi%20Robotik!5e1!3m2!1sen!2sid!4v1766846867665!5m2!1sen!2sid" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- Floating WhatsApp Button --}}
+<a href="https://wa.me/628118062262" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] hover:bg-[#128C7E] text-white shadow-lg flex items-center justify-center transition-colors duration-300 z-50">
+    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+</a>
