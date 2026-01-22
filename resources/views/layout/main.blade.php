@@ -75,6 +75,57 @@
         [data-aos] {
             transition-property: transform, opacity;
         }
+
+        /* Font Americana */
+        @font-face {
+            font-family: 'Americana';
+            src: url('{{ asset("fonts/Americana-Regular.ttf") }}') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Americana';
+            src: url('{{ asset("fonts/Americana-Bold.ttf") }}') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        /* Fallback jika font lokal tidak tersedia */
+        @import url('https://fonts.cdnfonts.com/css/americana');
+
+        /* Class untuk menggunakan font Americana */
+        .font-americana {
+            font-family: 'Americana', sans-serif;
+        }
+        
+        /* Class untuk weight spesifik */
+        .font-americana-regular {
+            font-family: 'Americana', sans-serif;
+            font-weight: normal;
+            letter-spacing: -0.3px;
+        }
+        
+        .font-americana-bold {
+            font-family: 'Americana', sans-serif;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+        }
+
+        /* Class khusus untuk komponen yang sudah ada */
+        .klinik-title {
+            font-family: 'Americana', sans-serif;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle-section {
+            font-family: 'Americana', sans-serif;
+            font-weight: normal;
+            letter-spacing: -0.3px;
+        }
     </style>
     
     {{-- Structured Data (JSON-LD) --}}

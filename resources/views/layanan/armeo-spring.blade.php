@@ -16,7 +16,7 @@
                  data-aos="fade-up"
                  data-aos-duration="1000">
                  
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">
                     Armeo® Spring
                 </h1>
 
@@ -50,7 +50,7 @@
 <section class="py-10 bg-neutral-100">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="text-gray-800" data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">Mengembalikan Fungsi Lengan dan Tangan dengan Teknologi Eksoskeleton Canggih</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4">Mengembalikan Fungsi Lengan dan Tangan dengan Teknologi Eksoskeleton Canggih</h2>
             <p class="text-lg md:text-xl opacity-80">
                 Kemampuan untuk menyuap makanan, menulis, atau sekadar menggenggam tangan orang terkasih adalah fungsi fungsional 
                 yang sering kali terganggu pasca-stroke. Di Klinik Wijaya, kami menghadirkan Armeo® Spring dari Hocoma, sebuah 
@@ -71,7 +71,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Apa itu Armeo® Spring?</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Apa itu Armeo® Spring?</h2>
                 <p class="text-lg text-gray-600 leading-relaxed mb-4">
                     Armeo® Spring adalah perangkat rehabilitasi robotik untuk ekstremitas atas yang menggunakan konsep 
                     <strong>self-initiated repetitive therapy</strong>. Berbeda dengan terapi pasif, Armeo® Spring mendeteksi 
@@ -97,7 +97,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Mengapa Armeo® Spring Menjadi Standar Baru di Klinik Wijaya?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Mengapa Armeo® Spring Menjadi Standar Baru di Klinik Wijaya?</h2>
             <p class="text-lg text-gray-600 max-w-4xl mx-auto">
                 Empat keunggulan teknologi yang membuat Armeo® Spring efektif dalam pemulihan fungsi lengan dan tangan
             </p>
@@ -187,7 +187,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Pengalaman Latihan Interaktif dengan Gamifikasi</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Pengalaman Latihan Interaktif dengan Gamifikasi</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Latihan yang menyenangkan dan efektif melalui simulasi virtual yang engaging
             </p>
@@ -240,7 +240,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Manfaat Klinis Bagi Pasien</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Manfaat Klinis Bagi Pasien</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Program rehabilitasi dengan Armeo® Spring di Klinik Wijaya ditujukan untuk pemulihan optimal fungsi ekstremitas atas
             </p>
@@ -307,7 +307,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos-once="true" data-aos="fade-right">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Teknologi Eksoskeleton di Balik Armeo® Spring</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Teknologi Eksoskeleton di Balik Armeo® Spring</h2>
                 
                 <div class="space-y-4">
                     <div class="flex items-start">
@@ -395,7 +395,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Untuk Siapa Armeo® Spring Dirancang?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Untuk Siapa Armeo® Spring Dirancang?</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Teknologi yang tepat untuk berbagai kondisi gangguan fungsi ekstremitas atas
             </p>
@@ -461,7 +461,7 @@
 <section class="py-12 bg-gradient-to-br from-gray-50 to-white">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-6">Pengalaman dan Kepercayaan Lebih dari 20 Tahun</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Pengalaman dan Kepercayaan Lebih dari 20 Tahun</h2>
             <p class="text-lg text-gray-600 leading-relaxed mb-4">
                 Di Klinik Wijaya, Armeo® Spring merupakan bagian dari ekosistem rehabilitasi kami yang telah berpengalaman 
                 lebih dari 20 tahun. Kami memadukan kecanggihan teknologi Hocoma dengan sentuhan personal dari terapis kami 

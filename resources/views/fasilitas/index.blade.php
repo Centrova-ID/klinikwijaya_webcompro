@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4">FASILITAS</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4">FASILITAS</h1>
                 <p class="text-xl md:text-2xl text-white/90">Fasilitas Modern untuk Kenyamanan Anda</p>
             </div>
         </div>

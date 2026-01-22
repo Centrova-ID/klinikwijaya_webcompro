@@ -74,7 +74,7 @@
     {{-- Content --}}
     <div class="relative h-full flex items-center justify-center z-10">
         <div class="text-center text-white px-4" data-aos="fade-up" data-aos-duration="1000">
-            <h1 class="text-5xl md:text-6xl font-americana font-bold mb-4 drop-shadow-lg">KLINIK WIJAYA</h1>
+            <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] font-americana-bold font-bold mb-4 drop-shadow-lg">Klinik Wijaya</h1>
             <p class="text-xl md:text-2xl drop-shadow-lg">Melampaui Batas Pemulihan, Menghidupkan Kembali Harapan</p>
         </div>
     </div>
@@ -85,7 +85,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
-                <h2 class="text-neutral-800 text-3xl mb-6 font-bold">Dedikasi Dua Dekade dalam Restorasi Kualitas Hidup Pasca-Stroke</h2>
+                <h2 class="font-americana text-neutral-800 text-3xl mb-6 font-bold">Dedikasi Dua Dekade dalam Restorasi Kualitas Hidup Pasca-Stroke</h2>
                 <p class="text-lg text-gray-800 leading-relaxed mb-4">
                     Selamat datang di Klinik Wijaya, pusat keunggulan rehabilitasi stroke yang telah menjadi mercu suar harapan di Jakarta Selatan. Kami memahami bahwa stroke bukan sekadar tantangan medis, melainkan titik balik kehidupan yang memerlukan penanganan komprehensif, teknologi mutakhir, dan empati yang mendalam.
                 </p>
@@ -106,7 +106,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Mengapa Memilih Klinik Wijaya?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Mengapa Memilih Klinik Wijaya?</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Keunggulan kami terletak pada sinergi antara keahlian klinis dan standar pelayanan internasional yang telah diakui.
             </p>
@@ -160,7 +160,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 gap-10 items-center">
             <div data-aos="fade-right">
-                <h2 class="text-3xl font-bold text-gray-900 mb-6">Personalized Care</h2>
+                <h2 class="font-americana text-3xl font-bold text-gray-900 mb-6">Personalized Care</h2>
                 <p class="text-gray-600 mb-6 leading-relaxed">
                     Setiap pasien adalah unik. Di Klinik Wijaya, kami tidak hanya mengobati gejala, tetapi menangani manusia seutuhnya. Tim multidisiplin kami yang terdiri dari dokter spesialis saraf, dokter spesialis rehabilitasi medik, fisioterapis, dan tenaga pendukung yang bekerja secara kolaboratif untuk menyusun rencana terapi yang dipersonalisasi.
                     <br>
@@ -193,7 +193,7 @@
         <div class="flex flex-col lg:grid lg:grid-cols-6 gap-8 lg:gap-10">
             {{-- Title Section --}}
             <div data-aos="fade-right" class="lg:col-span-2 mb-6 lg:mb-0 px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl lg:text-5xl font-bold text-gray-800 mb-4 lg:mb-6">Fasilitas Keunggulan</h2>
+                <h2 class="font-americana text-3xl lg:text-5xl font-bold text-gray-800 mb-4 lg:mb-6">Fasilitas Keunggulan</h2>
                 <p class="text-gray-600 leading-relaxed text-base lg:text-xl">
                     Teknologi mutakhir yang mendukung pemulihan optimal pasien
                 </p>
@@ -207,7 +207,7 @@
                     <div class="w-full flex flex-col aspect-[10/16] relative rounded-xl overflow-hidden bg-neutral-200 border border-neutral-200 hover:scale-105 transition duration-500">
                         <img src="{{ asset('assts/img/0/robotik_lokomat/robotik_lokomat-12.webp') }}" class="h-[75%] object-cover">
                         <div class="absolute w-full h-full flex flex-col justify-end p-4" style="background: linear-gradient(0deg, #f1f5fb 35%, #f1f5fb00 65%, #f1f5fb00);">
-                            <h2 class="text-neutral-700 text-xl font-semibold">Robot-Assisted Gait Training</h2>
+                            <h2 class="font-americana text-neutral-700 text-xl font-semibold">Robot-Assisted Gait Training</h2>
                             <p class="mt-3 text-neutral-600 text-sm">Teknologi mutakhir untuk melatih kembali kemampuan berjalan dengan presisi tinggi.</p>
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                     <div class="w-full flex flex-col aspect-[10/16] relative rounded-xl overflow-hidden bg-neutral-200 border border-neutral-200 hover:scale-105 transition duration-500">
                         <img src="{{ asset('assts/img/0/robotik_lokomat/robotik_lokomat-12.webp') }}" class="h-[75%] object-cover">
                         <div class="absolute w-full h-full flex flex-col justify-end p-4" style="background: linear-gradient(0deg, #f1f5fb 35%, #f1f5fb00 65%, #f1f5fb00);">
-                            <h2 class="text-neutral-700 text-xl font-semibold">Upper Limb Robotic Therapy</h2>
+                            <h2 class="font-americana text-neutral-700 text-xl font-semibold">Upper Limb Robotic Therapy</h2>
                             <p class="mt-3 text-neutral-600 text-sm">Fokus pada pemulihan motorik halus dan fungsional tangan dengan teknologi canggih.</p>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                     <div class="w-full flex flex-col aspect-[10/16] relative rounded-xl overflow-hidden bg-neutral-200 border border-neutral-200 hover:scale-105 transition duration-500">
                         <img src="{{ asset('assts/img/0/robotik_lokomat/robotik_lokomat-12.webp') }}" class="h-[75%] object-cover">
                         <div class="absolute w-full h-full flex flex-col justify-end p-4" style="background: linear-gradient(0deg, #f1f5fb 35%, #f1f5fb00 65%, #f1f5fb00);">
-                            <h2 class="text-neutral-700 text-xl font-semibold">Lingkungan Terapeutik</h2>
+                            <h2 class="font-americana text-neutral-700 text-xl font-semibold">Lingkungan Terapeutik</h2>
                             <p class="mt-3 text-neutral-600 text-sm">Ruang rehabilitasi yang modern, nyaman, dan dirancang khusus untuk stimulasi sensorik pasien.</p>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                                     loading="lazy"
                                 >
                                 <div class="absolute w-full h-full flex flex-col justify-end p-4 bg-gradient-to-t from-white via-white/90 to-transparent">
-                                    <h2 class="text-neutral-700 text-xl font-semibold">Robot-Assisted Gait Training</h2>
+                                    <h2 class="font-americana text-neutral-700 text-xl font-semibold">Robot-Assisted Gait Training</h2>
                                     <p class="mt-3 text-neutral-600 text-sm">Teknologi mutakhir untuk melatih kembali kemampuan berjalan dengan presisi tinggi.</p>
                                 </div>
                             </div>
@@ -257,7 +257,7 @@
                                     loading="lazy"
                                 >
                                 <div class="absolute w-full h-full flex flex-col justify-end p-4 bg-gradient-to-t from-white via-white/90 to-transparent">
-                                    <h2 class="text-neutral-700 text-xl font-semibold">Upper Limb Robotic Therapy</h2>
+                                    <h2 class="font-americana text-neutral-700 text-xl font-semibold">Upper Limb Robotic Therapy</h2>
                                     <p class="mt-3 text-neutral-600 text-sm">Fokus pada pemulihan motorik halus dan fungsional tangan dengan teknologi canggih.</p>
                                 </div>
                             </div>
@@ -271,7 +271,7 @@
                                     loading="lazy"
                                 >
                                 <div class="absolute w-full h-full flex flex-col justify-end p-4 bg-gradient-to-t from-white via-white/90 to-transparent">
-                                    <h2 class="text-neutral-700 text-xl font-semibold">Lingkungan Terapeutik</h2>
+                                    <h2 class="font-americana text-neutral-700 text-xl font-semibold">Lingkungan Terapeutik</h2>
                                     <p class="mt-3 text-neutral-600 text-sm">Ruang rehabilitasi yang modern, nyaman, dan dirancang khusus untuk stimulasi sensorik pasien.</p>
                                 </div>
                             </div>
@@ -346,7 +346,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Artikel Kesehatan</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Artikel Kesehatan</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Simak artikel kesehatan terbaru dari kami. Tinggalkan komentar jika Anda membutuhkan informasi menarik lainnya.
             </p>
@@ -386,7 +386,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Galeri</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Galeri</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Kami siap melayani Anda sepenuh hati
             </p>
@@ -474,7 +474,7 @@
 {{-- CTA Section --}}
 <section class="py-12 bg-gradient-to-r from-[#3F5499] to-[#389cc4]">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="zoom-in">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Mulailah Langkah Pemulihan Anda Hari Ini</h2>
+        <h2 class="font-americana text-3xl md:text-4xl font-bold text-white mb-6">Mulailah Langkah Pemulihan Anda Hari Ini</h2>
         <p class="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
             Jangan biarkan stroke membatasi masa depan Anda atau orang yang Anda cintai. Bergabunglah bersama ribuan pasien lainnya yang telah berhasil meraih kembali kualitas hidupnya di Klinik Wijaya.
         </p>

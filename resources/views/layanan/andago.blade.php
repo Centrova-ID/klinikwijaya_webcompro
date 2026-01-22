@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Hocoma Andago®</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Hocoma Andago®</h1>
                 <p class="text-xl md:text-2xl drop-shadow-lg">Jembatan Menuju Kemandirian</p>
             </div>
         </div>
@@ -38,7 +38,7 @@
 <section class="py-10 bg-neutral-100">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="text-gray-800" data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">Bergerak Bebas. Melangkah Aman. Menemukan Kembali Kepercayaan Diri.</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4">Bergerak Bebas. Melangkah Aman. Menemukan Kembali Kepercayaan Diri.</h2>
             <p class="text-lg md:text-xl opacity-80">
                 Puncak dari setiap perjalanan rehabilitasi adalah momen ketika pasien mampu kembali berjalan di atas permukaan tanah 
                 (over-ground) dengan kekuatan mereka sendiri. Klinik Wijaya menghadirkan Andago® dari Hocoma, sebuah solusi robotik 
@@ -59,7 +59,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Apa itu Andago®?</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Apa itu Andago®?</h2>
                 <p class="text-lg text-gray-600 leading-relaxed mb-4">
                     Andago® adalah sistem mobile robot untuk latihan berjalan di atas permukaan tanah yang dilengkapi dengan teknologi 
                     <strong>Dynamic Body Weight Support</strong> (penyangga berat badan dinamis).
@@ -83,7 +83,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Keunggulan Andago® dalam Pemulihan Pasca-Stroke</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Keunggulan Andago® dalam Pemulihan Pasca-Stroke</h2>
             <p class="text-lg text-gray-600 max-w-4xl mx-auto">
                 Di Klinik Wijaya, kami memanfaatkan Andago® untuk memberikan pengalaman rehabilitasi yang paling mendekati aktivitas kehidupan sehari-hari
             </p>
@@ -172,7 +172,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Pengalaman Latihan Over-Ground yang Aman</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Pengalaman Latihan Over-Ground yang Aman</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Andago® memberikan kebebasan bergerak dengan keamanan maksimal
             </p>
@@ -225,7 +225,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Mengapa Memilih Latihan Andago® di Klinik Wijaya?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Mengapa Memilih Latihan Andago® di Klinik Wijaya?</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Sebagai pusat rehabilitasi stroke berpengalaman lebih dari 20 tahun, Klinik Wijaya memahami bahwa pemulihan bukan 
                 hanya soal kekuatan otot, tapi juga tentang kepercayaan diri untuk melangkah kembali
@@ -273,7 +273,7 @@
 
             {{-- KIRI : JUDUL --}}
             <div data-aos-once="true" data-aos="fade-right">
-                <h2 class="text-3xl font-bold text-neutral-800">
+                <h2 class="font-americana text-3xl font-bold text-neutral-800">
                     Teknologi Cerdas di Balik Andago®
                 </h2>
             </div>
@@ -379,7 +379,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Untuk Siapa Andago® Cocok?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Untuk Siapa Andago® Cocok?</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Andago® dirancang khusus untuk pasien yang telah melewati fase awal rehabilitasi dan siap untuk transisi ke mobilitas mandiri
             </p>
@@ -445,7 +445,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Andago® vs Alat Bantu Jalan Konvensional</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Andago® vs Alat Bantu Jalan Konvensional</h2>
             <p class="text-gray-600">Perbedaan yang membuat latihan Anda lebih efektif dan aman</p>
         </div>
 
@@ -501,7 +501,7 @@
 <section class="py-12 bg-gradient-to-br from-gray-50 to-white">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-6">Saatnya Melangkah ke Tahap Berikutnya</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Saatnya Melangkah ke Tahap Berikutnya</h2>
             <p class="text-lg text-gray-600 leading-relaxed mb-4">
                 Andago® bukan sekadar alat medis; ia adalah rekan yang memberikan Anda keberanian untuk melepaskan pegangan dan 
                 mulai berjalan kembali menuju masa depan yang lebih aktif.
@@ -522,7 +522,7 @@
 <section class="py-16 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4]">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Siap untuk Transisi ke Over-Ground Walking?</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold text-white mb-4">Siap untuk Transisi ke Over-Ground Walking?</h2>
             <p class="text-xl text-white/90 mb-8">
                 Bergabunglah dengan ratusan pasien yang telah merasakan manfaat Andago® dalam perjalanan pemulihan mereka
             </p>

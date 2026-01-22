@@ -2,7 +2,7 @@
 {{-- CTA Section --}}
 <section class="py-20 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] hidden">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+        <h2 class="font-americana text-3xl md:text-4xl font-bold text-white mb-6">
             Bergabunglah dengan Ribuan Pasien Kami
         </h2>
         <p class="text-xl text-white/90 mb-8">
@@ -24,7 +24,7 @@
 <section class="py-20 bg-gradient-to-br from-slate-50 to-teal-50">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-slate-900 mb-3">Pertanyaan yang Sering Diajukan</h2>
+            <h2 class="font-americana text-4xl font-bold text-slate-900 mb-3">Pertanyaan yang Sering Diajukan</h2>
         </div>
 
         <div class="space-y-3">
@@ -207,14 +207,14 @@ function toggleFaq(index) {
 <section class="py-20 bg-neutral-100 text-slate-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold mb-2">HUBUNGI KAMI</h2>
+            <h2 class="font-americana text-4xl font-bold mb-2">Hubungi Kami</h2>
             <p class="text-neutral-800">Kami siap melayani Anda sepenuh hati</p>
         </div>
         
         <div class="grid md:grid-cols-3 gap-12">
             {{-- Contact Info --}}
             <div>
-                <h3 class="text-xl font-bold mb-6">KONTAK</h3>
+                <h3 class="font-americana text-xl font-bold mb-6">Kontak</h3>
                 <div class="space-y-4">
                     <div class="flex items-start">
                         <svg class="w-6 h-6 mr-3 mt-1 flex-shrink-0 text-teal-700" fill="currentColor" viewBox="0 0 24 24">

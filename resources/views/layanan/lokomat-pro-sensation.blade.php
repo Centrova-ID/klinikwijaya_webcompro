@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Lokomat® Pro Sensation</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Lokomat® Pro Sensation</h1>
                 <p class="text-xl md:text-2xl drop-shadow-lg">Revolusi Mobilitas untuk Pemulihan Jalan Anda</p>
             </div>
         </div>
@@ -38,7 +38,7 @@
 <section class="py-10 bg-neutral-100">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="text-gray-800" data-aos-once="true" data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-semibold mb-4">Menghadirkan Teknologi Robotik Tercanggih di Dunia ke Jakarta</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-semibold mb-4">Menghadirkan Teknologi Robotik Tercanggih di Dunia ke Jakarta</h2>
             <p class="text-base md:text-lg opacity-85">
                 Di Klinik Wijaya, kami percaya bahwa setiap langkah adalah kemajuan menuju kebebasan. Sebagai pelopor rehabilitasi robotik di Indonesia, kami menghadirkan <span class="font-semibold">Lokomat® Pro Sensation</span>—generasi terbaru alat robotic untuk membantu berjalan dari Hocoma, Swiss—sebuah keajaiban teknologi yang dirancang khusus untuk membantu pasien stroke mendapatkan kembali kemampuan berjalan dengan pola yang mendekati normal.
             </p>
@@ -57,7 +57,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Apa itu Lokomat® Pro Sensation?</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Apa itu Lokomat® Pro Sensation?</h2>
                 <p class="text-lg text-gray-800 leading-relaxed mb-4">
                     Lokomat® Pro Sensation bukan sekadar alat bantu jalan. Ini adalah sistem <span class="font-semibold">robotic gait training tercanggih</span> yang mengintegrasikan exoskeleton robotik dengan treadmill medis dan sistem penyangga berat badan dinamis.
                 </p>
@@ -73,7 +73,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos-once="true" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Mengapa Lokomat® Pro Sensation Menjadi Pilihan Utama Pasien?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Mengapa Lokomat® Pro Sensation Menjadi Pilihan Utama Pasien?</h2>
             <p class="text-lg text-gray-800 max-w-4xl mx-auto">
                 Keunggulan teknologi ini memberikan manfaat yang tidak bisa didapatkan dari fisioterapi konvensional saja
             </p>
@@ -158,7 +158,7 @@
 
             {{-- KIRI : JUDUL + DESKRIPSI --}}
             <div data-aos-once="true" data-aos="fade-right">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">
                     Terbukti Secara Klinis
                 </h2>
 
@@ -215,7 +215,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos-once="true" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Siapa yang Membutuhkan Terapi Lokomat?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Siapa yang Membutuhkan Terapi Lokomat?</h2>
             <p class="text-lg text-gray-800 max-w-3xl mx-auto">
                 Meskipun sangat efektif untuk pasien stroke, Lokomat® Pro Sensation di Klinik Wijaya juga menjadi solusi unggulan bagi berbagai kondisi neurologis
             </p>
@@ -262,7 +262,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="items-center text-center">
             <div data-aos-once="true" data-aos="fade-up">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Melangkah Lebih Jauh Bersama Klinik Wijaya</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Melangkah Lebih Jauh Bersama Klinik Wijaya</h2>
                 <p class="text-lg text-gray-800 leading-relaxed mb-1">
                     Pemulihan adalah perjalanan panjang, namun dengan teknologi yang tepat, perjalanan tersebut menjadi lebih singkat dan bermakna.
                 </p>

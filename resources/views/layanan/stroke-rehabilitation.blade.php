@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Pusat Rehabilitasi Stroke</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Pusat Rehabilitasi Stroke</h1>
                 <p class="text-xl md:text-2xl drop-shadow-lg">Pusat Rehabilitasi Stroke dengan Teknologi Robotik Terpadu</p>
             </div>
         </div>
@@ -41,7 +41,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Tentang Pusat Rehabilitasi Stroke</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Tentang Pusat Rehabilitasi Stroke</h2>
                 <p class="text-lg text-gray-600 leading-relaxed mb-4">
                     Kami berpengalaman selama <span class="font-bold text-[#3F5499]">20 tahun</span> sebagai Pusat Rehabilitasi Stroke yang terpadu. Fasilitas yang ada pada Pusat Rehabilitasi Stroke meliputi Terapi Manual, Terapi Robotik dan Hidroterapi.
                 </p>
@@ -57,7 +57,7 @@
 <!-- <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos-once="true" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Jenis Terapi</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Jenis Terapi</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Program rehabilitasi komprehensif dengan berbagai metode terapi modern dan terlatih
             </p>
@@ -120,7 +120,7 @@
 {{-- CTA Section --}}
 <section class="py-12 bg-gradient-to-r from-[#3F5499] to-[#389cc4]">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos-once="true" data-aos="zoom-in">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Mulai Perjalanan Pemulihan Anda</h2>
+        <h2 class="font-americana text-3xl md:text-4xl font-bold text-white mb-6">Mulai Perjalanan Pemulihan Anda</h2>
         <p class="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
             Tim rehabilitasi stroke kami siap membantu Anda atau orang yang Anda cintai untuk meraih kembali kualitas hidup.
         </p>

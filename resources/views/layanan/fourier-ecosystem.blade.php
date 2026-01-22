@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Ekosistem Robotik Fourier</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Ekosistem Robotik Fourier</h1>
                 <p class="text-xl md:text-2xl drop-shadow-lg">Transformasi Holistik Restorasi Gerak</p>
             </div>
         </div>
@@ -38,7 +38,7 @@
 <section class="py-10 bg-neutral-100">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="text-gray-800" data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">Menghubungkan Kembali Otak dengan Tubuh Melalui Teknologi Presisi</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4">Menghubungkan Kembali Otak dengan Tubuh Melalui Teknologi Presisi</h2>
             <p class="text-lg md:text-xl opacity-80">
                 Pemulihan neurologis bukan sekadar latihan fisik, melainkan sebuah perjalanan untuk menghubungkan kembali otak 
                 dengan tubuh. Klinik Wijaya mempersembahkan rangkaian lengkap teknologi robotik dari Fourier Intelligence—Cycle Motus, 
@@ -59,7 +59,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Pendekatan Rehabilitasi Komprehensif</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Pendekatan Rehabilitasi Komprehensif</h2>
                 <p class="text-lg text-gray-600 leading-relaxed mb-4">
                     Fourier Intelligence menghadirkan solusi robotik yang dirancang untuk menargetkan setiap aspek pemulihan motorik—
                     dari koordinasi bilateral hingga presisi gerakan halus dan stabilitas fungsional.
@@ -85,7 +85,7 @@
             <div class="inline-block bg-[#3F5499]/10 px-4 py-2 rounded-full mb-4">
                 <span class="text-[#3F5499] font-bold">CYCLE MOTUS</span>
             </div>
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Sinergi Kekuatan Ekstremitas Atas & Bawah</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Sinergi Kekuatan Ekstremitas Atas & Bawah</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Bukan sekadar sepeda statis; ini adalah sistem cerdas yang mampu melakukan adaptasi motorik secara otomatis
             </p>
@@ -147,7 +147,7 @@
             <div class="inline-block bg-[#3F5499]/10 px-4 py-2 rounded-full mb-4">
                 <span class="text-[#3F5499] font-bold">WRIST MOTUS</span>
             </div>
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Presisi untuk Kemandirian</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Presisi untuk Kemandirian</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Pergelangan tangan adalah kunci dari hampir semua aktivitas okupasi manusia
             </p>
@@ -208,7 +208,7 @@
             <div class="inline-block bg-[#3F5499]/10 px-4 py-2 rounded-full mb-4">
                 <span class="text-[#3F5499] font-bold">ANKLE MOTUS</span>
             </div>
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Fondasi Stabilitas dan Mobilitas</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Fondasi Stabilitas dan Mobilitas</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Langkah kaki yang stabil dimulai dari pergelangan kaki yang fungsional
             </p>
@@ -266,7 +266,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Ekosistem Terintegrasi untuk Hasil Optimal</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Ekosistem Terintegrasi untuk Hasil Optimal</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Sinergi teknologi Fourier yang bekerja bersama untuk pemulihan komprehensif
             </p>
@@ -319,7 +319,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Mengapa Memilih Terapi Robotik Komprehensif di Klinik Wijaya?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Mengapa Memilih Terapi Robotik Komprehensif di Klinik Wijaya?</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Dengan menggabungkan ketiga alat ini, Klinik Wijaya menawarkan rehabilitasi yang menyeluruh dan terintegrasi
             </p>
@@ -364,7 +364,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos-once="true" data-aos="fade-right">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Teknologi Fourier Intelligence</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Teknologi Fourier Intelligence</h2>
                 
                 <div class="space-y-4">
                     <div class="flex items-start">
@@ -452,7 +452,7 @@
 <section class="py-12 bg-gradient-to-br from-gray-50 to-white">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-6">Komitmen Klinik Wijaya untuk Pemulihan Optimal</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Komitmen Klinik Wijaya untuk Pemulihan Optimal</h2>
             <p class="text-lg text-gray-600 leading-relaxed mb-4">
                 Dengan lebih dari 20 tahun pengalaman dalam rehabilitasi neurologis, Klinik Wijaya terus berinovasi dengan 
                 menghadirkan teknologi terdepan dari Fourier Intelligence. Ekosistem robotik komprehensif kami dirancang untuk 
@@ -475,7 +475,7 @@
 <section class="py-16 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4]">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Mulai Perjalanan Pemulihan Holistik Anda</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold text-white mb-4">Mulai Perjalanan Pemulihan Holistik Anda</h2>
             <p class="text-xl text-white/90 mb-8">
                 Rasakan manfaat ekosistem robotik terintegrasi dari Fourier Intelligence di Klinik Wijaya
             </p>

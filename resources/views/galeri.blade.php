@@ -8,7 +8,7 @@
 <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-down">
-            <h2 class="text-4xl font-bold text-gray-900 mb-4">Dokumentasi Kami</h2>
+            <h2 class="font-americana text-4xl font-bold text-gray-900 mb-4">Dokumentasi Kami</h2>
             <p class="text-gray-600 text-lg">Lihat fasilitas modern dan kegiatan di Klinik Wijaya</p>
         </div>
 

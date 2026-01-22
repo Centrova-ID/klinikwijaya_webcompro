@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Rehabilitasi Robotik</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Rehabilitasi Robotik</h1>
                 <p class="text-xl md:text-2xl drop-shadow-lg">Masa Depan Pemulihan Saraf (Neuro-Recovery)</p>
             </div>
         </div>
@@ -36,7 +36,7 @@
 <section class="py-10 bg-neutral-100">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="text-gray-800" data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">Presisi Teknologi. Kecepatan Pemulihan. Standar Emas Baru.</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4">Presisi Teknologi. Kecepatan Pemulihan. Standar Emas Baru.</h2>
             <p class="text-lg md:text-xl opacity-80">
                 Klinik Wijaya dengan bangga memperkenalkan era baru dalam kedokteran fisik dan rehabilitasi. 
                 Sebagai pelopor rehabilitasi robotik di Indonesia, kami menghadirkan solusi bagi pasien yang 
@@ -50,7 +50,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Mengapa Teknologi Robotik Diperlukan?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Mengapa Teknologi Robotik Diperlukan?</h2>
             <p class="text-lg text-gray-600 max-w-4xl mx-auto">
                 Dalam rehabilitasi stroke konvensional, tantangan terbesar adalah inkonsistensi gerakan dan keterbatasan tenaga manusia dalam melakukan repetisi.
             </p>
@@ -110,7 +110,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Tentang Terapi Robotik</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Tentang Terapi Robotik</h2>
                 <p class="text-lg text-gray-600 leading-relaxed mb-4">
                     Sebagai pelopor terapi robotik untuk rehabilitasi medis pasca stroke di Indonesia, Klinik Wijaya menyediakan berbagai fasilitas modern sebagai terobosan terkini dalam rehabilitasi medis pasca stroke dengan tujuan untuk meningkatkan kelenturan dan pengoptimalan gerak pasien pasca stroke.
                 </p>
@@ -126,7 +126,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Instrumen Unggulan Kami</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Instrumen Unggulan Kami</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Klinik Wijaya mengintegrasikan perangkat robotik kelas dunia yang dirancang khusus untuk berbagai tahapan pemulihan
             </p>
@@ -167,7 +167,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Perbedaan Utama: Robotik vs Konvensional</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Perbedaan Utama: Robotik vs Konvensional</h2>
             <p class="text-gray-600">Pilih metode yang memberikan hasil terbaik untuk pemulihan Anda</p>
         </div>
 
@@ -222,7 +222,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos-once="true" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Jenis-Jenis Robotik Terapi</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Jenis-Jenis Robotik Terapi</h2>
         </div>
 
         {{-- grid kolom 5--}}

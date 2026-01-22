@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">C-Mill VR+</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">C-Mill VR+</h1>
                 <p class="text-xl md:text-2xl drop-shadow-lg">Melangkah Melampaui Batas dengan Simulasi Dunia Nyata</p>
             </div>
         </div>
@@ -38,7 +38,7 @@
 <section class="py-10 bg-neutral-100">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="text-gray-800" data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">Teknologi Robotik yang Aman. Tantangan Kehidupan Nyata. Hasil yang Terukur.</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4">Teknologi Robotik yang Aman. Tantangan Kehidupan Nyata. Hasil yang Terukur.</h2>
             <p class="text-lg md:text-xl opacity-80">
                 Di Klinik Wijaya, kami memahami bahwa berjalan bukan sekadar melangkahkan kaki, melainkan kemampuan untuk beradaptasi 
                 dengan lingkungan yang dinamis, seperti menghindari rintangan, berbelok di keramaian, dan merespons perubahan permukaan.
@@ -58,7 +58,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Apa itu C-Mill VR+?</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Apa itu C-Mill VR+?</h2>
                 <p class="text-lg text-gray-600 leading-relaxed mb-4">
                     Klinik Wijaya dengan bangga menghadirkan <strong>C-Mill VR+</strong> dari Hocoma, sebuah mahakarya teknologi rehabilitasi 
                     yang menggabungkan treadmill medis fungsional dengan kekuatan Virtual Reality (VR) dan Augmented Reality (AR).
@@ -77,7 +77,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Mengapa C-Mill VR+ Adalah Investasi Terbaik untuk Pemulihan Anda?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Mengapa C-Mill VR+ Adalah Investasi Terbaik untuk Pemulihan Anda?</h2>
             <p class="text-lg text-gray-600 max-w-4xl mx-auto">
                 Empat keunggulan teknologi yang membedakan C-Mill VR+ dari treadmill rehabilitasi konvensional
             </p>
@@ -165,7 +165,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Pengalaman Visual yang Imersif</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Pengalaman Visual yang Imersif</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Simulasi dunia nyata yang membawa latihan rehabilitasi ke level berikutnya
             </p>
@@ -218,7 +218,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Manfaat Utama bagi Pasien Klinik Wijaya</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Manfaat Utama bagi Pasien Klinik Wijaya</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Hasil terukur yang mempersiapkan Anda kembali ke kehidupan sehari-hari
             </p>
@@ -263,7 +263,7 @@
 
             <!-- LEFT -->
             <div class="lg:col-span-5" data-aos="fade-right" data-aos-once="true">
-                <h2 class="text-3xl font-extrabold text-neutral-900 leading-tight mb-6">
+                <h2 class="font-americana text-3xl font-extrabold text-neutral-900 leading-tight mb-6">
                     Teknologi Canggih di Balik
                     <span class="text-[#3F5499]">C-Mill VR+</span>
                 </h2>
@@ -360,7 +360,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Untuk Siapa C-Mill VR+ Dirancang?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Untuk Siapa C-Mill VR+ Dirancang?</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Teknologi yang tepat untuk berbagai kondisi neurologis dan ortopedis
             </p>
@@ -426,7 +426,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">C-Mill VR+ vs Treadmill Rehabilitasi Konvensional</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">C-Mill VR+ vs Treadmill Rehabilitasi Konvensional</h2>
             <p class="text-gray-600">Perbedaan yang membuat pemulihan Anda lebih efektif dan aman</p>
         </div>
 
@@ -482,7 +482,7 @@
 <section class="py-12 bg-gradient-to-br from-gray-50 to-white">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-6">Standar Baru Rehabilitasi di Jakarta</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Standar Baru Rehabilitasi di Jakarta</h2>
             <p class="text-lg text-gray-600 leading-relaxed mb-4">
                 Sebagai pelopor rehabilitasi robotik, Klinik Wijaya terus berkomitmen membawa teknologi yang terbukti secara klinis 
                 seperti C-Mill VR+ ke Indonesia. Kami menggabungkan akurasi data robotik dengan sentuhan pengalaman manusia untuk 

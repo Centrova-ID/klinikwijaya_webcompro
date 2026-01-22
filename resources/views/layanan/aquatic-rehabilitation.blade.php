@@ -9,7 +9,7 @@
 <section class="relative h-[500px] bg-cover bg-center" style="background-image: linear-gradient(rgba(63, 84, 153, 0.7), rgba(122, 198, 228, 0.7)), url('/public/assts/img/aquatic-hero.jpg');">
     <div class="absolute inset-0 flex items-center justify-center">
         <div class="text-center text-white px-4">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up">Aquatic Rehabilitation</h1>
+            <h1 class="font-americana-bold text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up">Aquatic Rehabilitation</h1>
             <p class="text-xl md:text-2xl font-light" data-aos="fade-up" data-aos-delay="100">Standar Baru Pemulihan Pasca-Stroke di Kolam Hidroterapi Privat</p>
         </div>
     </div>
@@ -33,7 +33,7 @@
 <!-- Intro Banner -->
 <section class="py-12 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] text-white">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">Transformasi Pemulihan: Mengapa Air Menjadi Media Terapi Terbaik?</h2>
+        <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">Transformasi Pemulihan: Mengapa Air Menjadi Media Terapi Terbaik?</h2>
         <p class="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="100">
             Bagi pasien pasca-stroke, setiap gerakan adalah sebuah kemenangan. Klinik Wijaya menghadirkan rehabilitasi akuatik yang memanfaatkan prinsip fisika air untuk menciptakan lingkungan terapi yang aman sekaligus menantang secara fisik.
         </p>
@@ -46,7 +46,7 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
                 <span class="inline-block px-4 py-2 bg-[#3F5499]/10 text-[#3F5499] rounded-full text-sm font-semibold mb-4">REHABILITASI MEDIS BERBASIS AIR</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Apa Itu Aquatic Rehabilitation?</h2>
+                <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-6">Apa Itu Aquatic Rehabilitation?</h2>
                 <p class="text-lg text-gray-600 mb-4 leading-relaxed">
                     Rehabilitasi akuatik adalah program terapi latihan yang dilakukan di dalam air dengan suhu terkontrol (sekitar 32°C - 34°C). Terapi ini dipandu langsung oleh dokter spesialis Kedokteran Fisik dan Rehabilitasi (Sp.KFR) serta fisioterapis yang terlatih secara khusus untuk memanfaatkan prinsip fisika air demi tujuan medis.
                 </p>
@@ -67,7 +67,7 @@
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12" data-aos="fade-up">Tantangan Terapi Konvensional di Darat</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12" data-aos="fade-up">Tantangan Terapi Konvensional di Darat</h2>
             <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-100" data-aos="fade-up" data-aos-delay="100">
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
                     Hambatan fisik seperti <span class="font-semibold text-[#3F5499]">kelemahan otot</span>, <span class="font-semibold text-[#3F5499]">hilangnya keseimbangan</span>, hingga <span class="font-semibold text-[#3F5499]">rasa takut akan terjatuh</span> seringkali menjadi kendala utama dalam sesi fisioterapi konvensional (darat).
@@ -86,7 +86,7 @@
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">Keunggulan Akuatik Dibanding Terapi Manual di Darat</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">Keunggulan Akuatik Dibanding Terapi Manual di Darat</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
                 Meskipun terapi manual di darat tetap penting, rehabilitasi di dalam air menawarkan keunggulan unik yang tidak dapat direplikasi di lingkungan kering
             </p>
@@ -212,7 +212,7 @@
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">Pengalaman Visual Rehabilitasi Akuatik</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">Pengalaman Visual Rehabilitasi Akuatik</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
                 Lihat bagaimana prinsip fisika air bekerja untuk pemulihan pasien pasca-stroke
             </p>
@@ -261,7 +261,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-12">
                 <span class="inline-block px-4 py-2 bg-[#3F5499]/10 text-[#3F5499] rounded-full text-sm font-semibold mb-4" data-aos="fade-up">FASILITAS PREMIUM</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up" data-aos-delay="100">Kolam Hidroterapi Privat: Keamanan dan Privasi Tanpa Kompromi</h2>
+                <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up" data-aos-delay="100">Kolam Hidroterapi Privat: Keamanan dan Privasi Tanpa Kompromi</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                     Kami memahami bahwa kenyamanan psikologis sangat berpengaruh pada hasil terapi. Klinik Wijaya menyediakan fasilitas yang dirancang khusus untuk kebutuhan medis Anda.
                 </p>
@@ -342,7 +342,7 @@
 <section class="py-16 bg-gradient-to-br from-[#3F5499]/5 to-[#7AC6E4]/5">
     <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6" data-aos="fade-up">Sinergi Teknologi Robotik dan Rehabilitasi Akuatik</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-6" data-aos="fade-up">Sinergi Teknologi Robotik dan Rehabilitasi Akuatik</h2>
             <div class="bg-white rounded-xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="100">
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
                     Rehabilitasi akuatik bukan sekadar berenang; ini adalah <span class="font-bold text-[#3F5499]">sains gerak yang memanfaatkan elemen alam</span> untuk melampaui keterbatasan fisik.
@@ -361,7 +361,7 @@
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">Siapa yang Cocok untuk Aquatic Rehabilitation?</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up">Siapa yang Cocok untuk Aquatic Rehabilitation?</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
                 Program rehabilitasi akuatik kami dirancang khusus untuk pasien dengan kondisi berikut
             </p>
@@ -417,7 +417,7 @@
         <div class="max-w-5xl mx-auto">
             <div class="bg-white rounded-xl p-8 shadow-lg" data-aos="fade-up">
                 <div class="text-center mb-8">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tim Medis Berpengalaman</h2>
+                    <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tim Medis Berpengalaman</h2>
                     <p class="text-lg text-gray-600">Dipandu oleh spesialis dan terapis terlatih</p>
                 </div>
                 <div class="grid md:grid-cols-2 gap-8">
@@ -442,7 +442,7 @@
 <!-- CTA Section -->
 <section class="py-16 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] text-white">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">Jadwalkan Konsultasi Anda Hari Ini</h2>
+        <h2 class="font-americana text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">Jadwalkan Konsultasi Anda Hari Ini</h2>
         <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
             Ingin mengetahui apakah Aquatic Rehabilitation sesuai untuk kondisi Anda atau kerabat tercinta? Hubungi tim medis Klinik Wijaya untuk evaluasi komprehensif.
         </p>

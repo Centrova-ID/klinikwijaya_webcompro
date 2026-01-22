@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Muskuloskeletal</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Muskuloskeletal</h1>
                 <p class="text-xl md:text-2xl drop-shadow-lg">Solusi Terpadu untuk Gangguan Otot, Sendi dan Tulang</p>
             </div>
         </div>
@@ -41,7 +41,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Tentang Layanan Muskuloskeletal</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Tentang Layanan Muskuloskeletal</h2>
                 <p class="text-lg text-gray-600 leading-relaxed mb-4">
                     Gangguan yang terjadi pada otot, sendi, jaringan ikat dan tulang merupakan salah satu masalah yang paling umum. Gejala yang sering dirasakan berupa nyeri dan kaku, gejala awal biasanya berupa pegal-pegal yang tidak berangsur membaik.
                 </p>
@@ -57,7 +57,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos-once="true" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Contoh Gangguan Muskuloskeletal</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Contoh Gangguan Muskuloskeletal</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Berbagai kondisi yang dapat ditangani oleh tim spesialis kami
             </p>
@@ -150,7 +150,7 @@
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos-once="true" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Layanan Kami</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Layanan Kami</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Berbagai metode terapi dan perawatan komprehensif untuk pemulihan optimal
             </p>
@@ -223,7 +223,7 @@
 {{-- CTA Section --}}
 <section class="py-12 bg-gradient-to-r from-[#3F5499] to-[#389cc4]">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos-once="true" data-aos="zoom-in">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Konsultasikan Keluhan Anda</h2>
+        <h2 class="font-americana text-3xl md:text-4xl font-bold text-white mb-6">Konsultasikan Keluhan Anda</h2>
         <p class="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
             Tim dokter spesialis kami siap membantu Anda mengatasi masalah muskuloskeletal dengan terapi yang tepat dan efektif.
         </p>

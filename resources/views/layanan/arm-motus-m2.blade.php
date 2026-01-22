@@ -10,7 +10,7 @@
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="text-white max-w-3xl" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Arm Motus M2</h1>
+                <h1 class="font-americana-bold text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Arm Motus M2</h1>
                 <p class="text-xl md:text-2xl drop-shadow-lg">Revolusi Neurorehabilitasi: Memulihkan Kemandirian dengan AI</p>
             </div>
         </div>
@@ -38,7 +38,7 @@
 <section class="py-10 bg-neutral-100">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="text-gray-800" data-aos="fade-up">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">Intensitas Tinggi. Akurasi Presisi. Pemulihan Lebih Cepat.</h2>
+            <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4">Intensitas Tinggi. Akurasi Presisi. Pemulihan Lebih Cepat.</h2>
             <p class="text-lg md:text-xl opacity-80">
                 Dalam dunia rehabilitasi pasca-stroke dan cedera neurologis, kecepatan pemulihan motorik sangat bergantung pada 
                 dua hal: intensitas latihan dan akurasi gerakan. Klinik Wijaya dengan bangga menghadirkan Arm Motus M2, sebuah 
@@ -59,7 +59,7 @@
             </div>
 
             <div data-aos-once="true" data-aos="fade-left">
-                <h2 class="text-3xl font-bold text-neutral-800 mb-6">Apa Itu Arm Motus M2?</h2>
+                <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Apa Itu Arm Motus M2?</h2>
                 <p class="text-lg text-gray-600 leading-relaxed mb-4">
                     Arm Motus M2 adalah sistem robotik berbasis AI yang dikembangkan oleh <strong>Fourier Intelligence</strong>. 
                     Alat ini dirancang khusus untuk membantu pasien dengan gangguan fungsi motorik akibat stroke, cedera otak traumatik, 
@@ -84,7 +84,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Keunggulan Medis: Mengapa Robotik Lebih Efektif?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Keunggulan Medis: Mengapa Robotik Lebih Efektif?</h2>
             <p class="text-lg text-gray-600 max-w-4xl mx-auto">
                 Arm Motus M2 menawarkan presisi dan efektivitas yang tidak dapat dicapai oleh terapi manual
             </p>
@@ -152,7 +152,7 @@
 <!-- <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Pengalaman Terapi yang Komprehensif</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Pengalaman Terapi yang Komprehensif</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Kombinasi teknologi AI dan gamifikasi untuk hasil rehabilitasi yang optimal
             </p>
@@ -205,7 +205,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Manfaat Program Rehabilitasi dengan Motus M2</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Manfaat Program Rehabilitasi dengan Motus M2</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Di Klinik Wijaya, kami memahami bahwa setiap pasien memiliki perjalanan pemulihan yang unik
             </p>
@@ -250,7 +250,7 @@
 
             <!-- LEFT : TITLE -->
             <div class="lg:col-span-5" data-aos="fade-right" data-aos-once="true">
-                <h2 class="text-3xl font-extrabold text-neutral-900 leading-tight">
+                <h2 class="font-americana text-3xl font-extrabold text-neutral-900 leading-tight">
                     Teknologi AI yang Mengubah
                     <span class="text-[#3F5499]">Standar Rehabilitasi</span>
                 </h2>
@@ -340,7 +340,7 @@
 <section class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-4">Siapa yang Membutuhkan Terapi Ini?</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-4">Siapa yang Membutuhkan Terapi Ini?</h2>
             <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 Layanan ini sangat direkomendasikan bagi pasien dengan berbagai kondisi neurologis dan ortopedis
             </p>
@@ -406,7 +406,7 @@
 <section class="py-12 bg-gradient-to-br from-gray-50 to-white">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center" data-aos="fade-up">
-            <h2 class="text-3xl font-bold text-neutral-800 mb-6">Melangkah Menuju Masa Depan yang Lebih Mandiri</h2>
+            <h2 class="font-americana text-3xl font-bold text-neutral-800 mb-6">Melangkah Menuju Masa Depan yang Lebih Mandiri</h2>
             <p class="text-lg text-gray-600 leading-relaxed mb-4">
                 Dengan hadirnya Fourier Motus M2 di Klinik Wijaya, teknologi medis tercanggih kini berada dalam jangkauan Anda. 
                 Kami mengundang Anda untuk berkonsultasi dengan tim spesialis kedokteran fisik dan rehabilitasi kami untuk melihat 
