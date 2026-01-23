@@ -54,7 +54,7 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos-once="true" data-aos="fade-right">
                 <div class="overflow-hidden rounded-xl">
-                    <img src="{{ asset('assts/img/layanan/andago-device.png') }}" alt="Hocoma Andago Device" class="w-full h-full object-cover">
+                    <img src="{{ asset('assts/img/0/robotik_andago/robotik_andago-4.webp') }}" alt="Hocoma Andago Device" class="w-full h-full object-cover">
                 </div>
             </div>
 
@@ -269,12 +269,12 @@
 {{-- Technology Features Section --}}
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div class="flex max-lg:flex-col gap-12 items-start">
 
             {{-- KIRI : JUDUL --}}
             <div data-aos-once="true" data-aos="fade-right">
-                <h2 class="font-americana text-3xl font-bold text-neutral-800">
-                    Teknologi Cerdas di Balik Andago®
+                <h2 class="font-americana text-3xl font-bold max-lg:text-center text-neutral-800 lg:whitespace-nowrap">
+                    Teknologi Cerdas <br class="max-lg:hidden"> di Balik Andago®
                 </h2>
             </div>
 
@@ -366,7 +366,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 

@@ -5,7 +5,7 @@
 @section('content')
 {{-- Hero Section --}}
 <section class="relative h-[500px] bg-gray-900 overflow-hidden">
-    <img src="{{ asset('assts/img/layanan/stroke.JPG') }}" alt="Pusat Rehabilitasi Stroke - Klinik Wijaya" class="absolute inset-0 w-full h-full object-cover">
+    <img src="{{ asset('assts/img/0/gymnasium/gymnasium-2.webp') }}" alt="Pusat Rehabilitasi Stroke - Klinik Wijaya" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black/60"></div>
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -36,7 +36,7 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos-once="true" data-aos="fade-right">
                 <div class="overflow-hidden rounded-xl">
-                    <img src="{{ asset('assts/img/layanan/stroke2.JPG') }}" alt="Rehabilitasi Stroke Klinik Wijaya" class="w-500 h-500 object-cover">
+                    <img src="{{ asset('assts/img/0/gymnasium/gymnasium-12.webp') }}" alt="Rehabilitasi Stroke Klinik Wijaya" class="w-500 h-500 object-cover">
                 </div>
             </div>
 

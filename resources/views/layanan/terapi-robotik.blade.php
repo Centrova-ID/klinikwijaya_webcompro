@@ -5,7 +5,7 @@
 @section('content')
 {{-- Hero Section --}}
 <section class="relative h-[500px] bg-gray-900 overflow-hidden">
-    <img src="{{ asset('assts/img/layanan/robot2.JPG') }}" alt="Terapi Robotik - Klinik Wijaya" class="absolute inset-0 w-full h-full object-cover">
+    <img src="{{ asset('assts/img/0/robotik_armeo/robotik_armeo-1.webp') }}" alt="Terapi Robotik - Klinik Wijaya" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black/60"></div>
     <div class="relative h-full flex items-center">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -105,7 +105,7 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos-once="true" data-aos="fade-right">
                 <div class="overflow-hidden rounded-xl">
-                    <img src="{{ asset('assts/img/layanan/lokomat.JPG') }}" alt="Terapi Robotik Klinik Wijaya" class="w-full h-full object-cover">
+                    <img src="{{ asset('assts/img/0/robotik_lokomat/robotik_lokomat-1.webp') }}" alt="Terapi Robotik Klinik Wijaya" class="w-full h-full object-cover">
                 </div>
             </div>
 

@@ -218,7 +218,7 @@
                     </div>
 
                     <div class="w-full flex flex-col aspect-[10/16] relative rounded-xl overflow-hidden bg-neutral-200 border border-neutral-200 hover:scale-105 transition duration-500">
-                        <img src="{{ asset('assts/img/0/robotik_lokomat/robotik_lokomat-12.webp') }}" class="h-[75%] object-cover">
+                        <img src="{{ asset('assts/img/0/robotik_armeo/robotik_armeo-3.webp') }}" class="h-[75%] object-cover">
                         <div class="absolute w-full h-full flex flex-col justify-end p-4" style="background: linear-gradient(0deg, #f1f5fb 35%, #f1f5fb00 65%, #f1f5fb00);">
                             <h2 class="font-americana text-neutral-700 text-xl font-semibold">Upper Limb Robotic Therapy</h2>
                             <p class="mt-3 text-neutral-600 text-sm">Fokus pada pemulihan motorik halus dan fungsional tangan dengan teknologi canggih.</p>
@@ -226,7 +226,7 @@
                     </div>
 
                     <div class="w-full flex flex-col aspect-[10/16] relative rounded-xl overflow-hidden bg-neutral-200 border border-neutral-200 hover:scale-105 transition duration-500">
-                        <img src="{{ asset('assts/img/0/robotik_lokomat/robotik_lokomat-12.webp') }}" class="h-[75%] object-cover">
+                        <img src="{{ asset('assts/img/0/gymnasium/gymnasium-25.webp') }}" class="h-[85%] scale-[1.4] -mt-20 object-cover">
                         <div class="absolute w-full h-full flex flex-col justify-end p-4" style="background: linear-gradient(0deg, #f1f5fb 35%, #f1f5fb00 65%, #f1f5fb00);">
                             <h2 class="font-americana text-neutral-700 text-xl font-semibold">Lingkungan Terapeutik</h2>
                             <p class="mt-3 text-neutral-600 text-sm">Ruang rehabilitasi yang modern, nyaman, dan dirancang khusus untuk stimulasi sensorik pasien.</p>
