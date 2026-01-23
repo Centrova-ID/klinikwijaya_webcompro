@@ -67,6 +67,11 @@
          class="absolute inset-0 w-full h-full object-cover" 
          loading="eager"
          fetchpriority="high">
+    <img src="{{ asset('assts/img/0/home/home-2.webp') }}" 
+         alt="Terapi Robotik Pasca Stroke di Klinik Wijaya - Teknologi Rehabilitasi Modern" 
+         class="absolute inset-0 w-full h-full object-cover md:hidden" 
+         loading="eager"
+         fetchpriority="high">
     
     {{-- Overlay --}}
     <div class="absolute inset-0 bg-black/60"></div>
@@ -74,7 +79,7 @@
     {{-- Content --}}
     <div class="relative h-full flex items-center justify-center z-10">
         <div class="text-center text-white px-4" data-aos="fade-up" data-aos-duration="1000">
-            <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] font-americana-bold font-bold mb-4 drop-shadow-lg">Klinik Wijaya</h1>
+            <h1 class="text-7xl md:text-7xl lg:text-[6rem] font-americana-bold font-bold mb-4 drop-shadow-lg">Klinik <br class="md:hidden"> Wijaya</h1>
             <p class="text-xl md:text-2xl drop-shadow-lg">Melampaui Batas Pemulihan, Menghidupkan Kembali Harapan</p>
         </div>
     </div>
