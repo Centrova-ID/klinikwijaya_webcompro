@@ -15,14 +15,19 @@
         @if(count($galleryImages) > 0)
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[6px]">
             @foreach($galleryImages as $index => $image)
-            <div class="aspect-square overflow-hidden bg-gray-100 group cursor-pointer" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
-                <img src="{{ asset($image) }}" 
-                     alt="Galeri Klinik Wijaya" 
-                     class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
-                     width="400"
-                     height="400"
-                     loading="lazy"
-                     onclick="openLightbox({{ $index }})">
+            <div class="group cursor-pointer" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
+                <div class="aspect-square overflow-hidden bg-gray-100">
+                    <img src="{{ asset($image) }}" 
+                         alt="Galeri Klinik Wijaya" 
+                         class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                         width="400"
+                         height="400"
+                         loading="lazy"
+                         onclick="openLightbox({{ $index }})">
+                </div>
+                <p class="text-center text-gray-700 text-sm font-medium mt-2 px-2 truncate">
+                    {{ pathinfo($image, PATHINFO_FILENAME) }}
+                </p>
             </div>
             @endforeach
         </div>

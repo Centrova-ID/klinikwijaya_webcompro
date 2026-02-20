@@ -17,9 +17,9 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
             {{-- Logo --}}
-            <div class="flex-shrink-0 flex items-center">
-                <a href="{{ route('home') }}" class="flex items-center space-x-3">
-                    <img src="{{ asset('assts/logo/klinikwijaya.png') }}" alt="Logo Klinik Wijaya" class="w-[240px] mb-1">
+            <div class="flex items-center">
+                <a href="{{ route('home') }}" class="flex items-center">
+                    <img src="{{ asset('assts/logo/klinikwijaya.png') }}" alt="Logo Klinik Wijaya" class="h-12 sm:h-14 md:h-16 lg:h-9 w-auto object-contain">
                 </a>
             </div>
 
@@ -38,13 +38,13 @@
                     </button>
                     <div class="dropdown-menu hidden absolute left-0 top-full w-72 bg-white rounded-lg shadow-lg py-1 px-1 border border-gray-100">
                         <a href="{{ route('layanan.stroke-rehabilitation') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
-                            Pusat Rehabilitasi Stroke
+                            Robotic rehabilitation
                         </a>
                         <a href="{{ route('layanan.terapi-robotik') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
-                            Terapi Robotik
+                            Aquatic rehabilitation
                         </a>
                         <a href="{{ route('layanan.musculosceletal') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
-                            Musculoskeletal
+                            Physical therapy
                         </a>
                     </div>
                 </div>

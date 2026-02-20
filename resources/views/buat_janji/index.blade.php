@@ -61,31 +61,7 @@
                                     placeholder="nama@email.com">
                             </div>
 
-                            {{-- Dokter --}}
-                            <div>
-                                <label for="dokter" class="block text-gray-700 font-semibold mb-2">
-                                    Dokter Yang Ingin Ditemui <span class="text-red-500">*</span>
-                                </label>
-                                <select id="dokter" name="dokter" required
-                                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#3F5499] focus:border-transparent">
-                                    <option value="">-- Pilih Dokter --</option>
-                                    <option value="dr. Rosiana Pradanasari Wirawan, Sp.KFR (K)">dr. Rosiana Pradanasari Wirawan, Sp.KFR (K) – Stroke, Spinal Cord Injury & Neurogenik Bladder</option>
-                                    <option value="dr Erik Setiawan, Sp.KFR">dr Erik Setiawan, Sp.KFR – Musculosceletal Rehabilitation</option>
-                                    <option value="dr Kaleb Tjindarbumi, Sp.KFR">dr Kaleb Tjindarbumi, Sp.KFR – Physiatrist</option>
-                                    <option value="dr. Sukono Djojoatmojo, Sp.S">dr. Sukono Djojoatmojo, Sp.S – Spesialis Saraf</option>
-                                    <option value="dr. Sharon Loraine Samuel, Sp.KFR">dr. Sharon Loraine Samuel, Sp.KFR – Physiatrist</option>
-                                    <option value="dr. Fitri Anestherita, Sp.KFR">dr. Fitri Anestherita, Sp.KFR – Physiatrist</option>
-                                    <option value="dr. Liaw Roger Leo, MD, FRACS">dr. Liaw Roger Leo, MD, FRACS – Physiatrist</option>
-                                    <option value="dr. Troydimas Panjaitan, Sp.OT">dr. Troydimas Panjaitan, Sp.OT – Physiatrist</option>
-                                    <option value="dr. Ade Wijaya, Sp.S">dr. Ade Wijaya, Sp.S – Physiatrist</option>
-                                    <option value="drg. Rosalinda Rambe, SP.KG">drg. Rosalinda Rambe, SP.KG – Spesialis Konservasi Gigi (Saraf Gigi)</option>
-                                    <option value="drg. Fifi Prihasti. Sp.Perio">drg. Fifi Prihasti. Sp.Perio – Spesialis Periodontis</option>
-                                    <option value="drg. JM Hendrati Tjipto B Sp.Ort">drg. JM Hendrati Tjipto B Sp.Ort</option>
-                                    <option value="drg. Dewi Haryanti Pramono S.Pros">drg. Dewi Haryanti Pramono S.Pros</option>
-                                    <option value="drg. Rinati Adrin Sp.KGA">drg. Rinati Adrin Sp.KGA</option>
-                                </select>
-                            </div>
-
+                    
                             {{-- Tanggal Kunjungan --}}
                             <div>
                                 <label for="tanggal" class="block text-gray-700 font-semibold mb-2">
@@ -122,10 +98,10 @@
                     {{-- Chat dengan CS --}}
                     <div class="bg-white rounded shadow p-6 mb-6">
                         <h3 class="text-xl font-bold text-[#3F5499] mb-4">Chatting dengan CS</h3>
-                        <a href="https://wa.me/6281888757571" target="_blank"
+                        <a href="https://wa.me/628118062262" target="_blank"
                             class="flex items-center justify-center space-x-2 px-6 py-3 bg-green-500 text-white rounded hover:bg-green-600 transition-colors">
                             <i class="fab fa-whatsapp text-2xl"></i>
-                            <span class="font-semibold">081-888-7571</span>
+                            <span class="font-semibold">081-180-622-62</span>
                         </a>
                     </div>
 
@@ -159,9 +135,8 @@
                                     <i class="fas fa-clock text-[#7AC6E4] text-xl mt-1"></i>
                                 </div>
                                 <div>
-                                    <p class="font-semibold text-gray-700">JAM OPERASIONAL</p>
-                                    <p class="text-gray-600 text-sm">Senin - Jumat: 08:00 - 20:00<br>Sabtu: 08:00 - 17:00<br>Minggu: Tutup</p>
-                                </div>
+                                    <p class="font-semibold text-gray-700">OPERASIONAL</p>
+                                    <p class="text-gray-600 text-sm">Senin - Sabtu : 08:00 - 16:00<br></p>
                             </div>
                         </div>
                     </div>

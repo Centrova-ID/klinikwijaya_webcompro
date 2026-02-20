@@ -400,14 +400,19 @@
         <div class="grid grid-cols-3 gap-2 mt-10">
             @forelse($galleryImages as $index => $image)
                 @if($index < 9)
-                <div class="aspect-square overflow-hidden bg-gray-100 cursor-pointer rounded-lg" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
-                    <img src="{{ asset($image) }}" 
-                         alt="Gallery Image Klinik Wijaya" 
-                         class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
-                         width="400"
-                         height="400"
-                         loading="lazy"
-                         onclick="openLightbox({{ $index }})">
+                <div class="group cursor-pointer" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
+                    <div class="aspect-square overflow-hidden bg-gray-100 rounded-lg">
+                        <img src="{{ asset($image) }}" 
+                             alt="Gallery Image Klinik Wijaya" 
+                             class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                             width="400"
+                             height="400"
+                             loading="lazy"
+                             onclick="openLightbox({{ $index }})">
+                    </div>
+                    <p class="text-center text-gray-700 text-xs font-medium mt-1 px-1 truncate">
+                        {{ pathinfo($image, PATHINFO_FILENAME) }}
+                    </p>
                 </div>
                 @endif
             @empty

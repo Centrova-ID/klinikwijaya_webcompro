@@ -132,10 +132,9 @@
             </p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-2 gap-6">
             {{-- Instrument 1 --}}
             <div class="bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
-                <div class="text-5xl font-bold text-[#3F5499] mb-2">1</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Robotik Ekstremitas Bawah<br><span class="text-base font-normal text-gray-600">(Gait Training)</span></h3>
                 <p class="text-gray-600 text-sm leading-relaxed">
                     Membantu pasien yang kehilangan kemampuan berjalan untuk merasakan kembali pola langkah yang natural. Teknologi ini menopang berat badan pasien secara dinamis, memberikan rasa aman tanpa risiko terjatuh.
@@ -144,19 +143,9 @@
 
             {{-- Instrument 2 --}}
             <div class="bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
-                <div class="text-5xl font-bold text-[#3F5499] mb-2">2</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Robotik Ekstremitas Atas<br><span class="text-base font-normal text-gray-600">(Arm & Hand Recovery)</span></h3>
                 <p class="text-gray-600 text-sm leading-relaxed">
                     Fokus pada pemulihan fungsional lengan dan jari. Sangat efektif untuk pasien yang mengalami kekakuan (spastisitas) atau kelemahan otot agar mampu kembali melakukan aktivitas harian seperti makan atau menulis.
-                </p>
-            </div>
-
-            {{-- Instrument 3 --}}
-            <div class="bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
-                <div class="text-5xl font-bold text-[#3F5499] mb-2">3</div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Robotic Balance System</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">
-                    Sistem cerdas untuk melatih keseimbangan dan koordinasi tubuh guna mencegah risiko jatuh di masa depan.
                 </p>
             </div>
         </div>

@@ -127,3 +127,18 @@ Route::prefix('admin')->group(function () {
         });
     });
 });
+
+use Illuminate\Support\Facades\Response;
+
+Route::get('/fonts/{file}', function ($file) {
+    $path = public_path('fonts/' . $file);
+
+    if (!file_exists($path)) {
+        abort(404);
+    }
+
+    return response()->file($path, [
+        'Content-Type' => 'font/woff2',
+        'Cache-Control' => 'public, max-age=31536000',
+    ]);
+});

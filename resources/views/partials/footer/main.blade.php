@@ -261,7 +261,7 @@ function toggleFaq(index) {
             </div>
 
             <div class="col-span-2 h-[360px]">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6620.489288817791!2d106.803291!3d-6.251008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1710e2d8b9b%3A0x3b1fd7dfb7447343!2sKlinik%20Wijaya%20-%20Terapi%20Stroke%20di%20Jakarta%20Dengan%20Teknologi%20Robotik!5e1!3m2!1sen!2sid!4v1766846867665!5m2!1sen!2sid" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0965482410124!2d106.80071637559791!3d-6.251007893737441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1710e2d8b9b%3A0x3b1fd7dfb7447343!2sKlinik%20Wijaya!5e0!3m2!1sid!2sid!4v1771064658549!5m2!1sid!2sid" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
