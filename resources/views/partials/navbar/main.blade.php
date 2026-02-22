@@ -37,14 +37,14 @@
                         </svg>
                     </button>
                     <div class="dropdown-menu hidden absolute left-0 top-full w-72 bg-white rounded-lg shadow-lg py-1 px-1 border border-gray-100">
-                        <a href="{{ route('layanan.stroke-rehabilitation') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
+                        <a href="{{ route('layanan.terapi-robotik') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
                             Robotic rehabilitation
                         </a>
-                        <a href="{{ route('layanan.terapi-robotik') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
+                        <a href="{{ route('layanan.aquatic-rehabilitation') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
                             Aquatic rehabilitation
                         </a>
                         <a href="{{ route('layanan.musculosceletal') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
-                            Physical therapy
+                            Musculoskeletal rehabilitation
                         </a>
                     </div>
                 </div>
@@ -64,9 +64,9 @@
                         <a href="{{ route('tentang-kami') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
                             Tentang Kami
                         </a>
-                        <a href="{{ route('artikel.index') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
+                        <!-- <a href="{{ route('artikel.index') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
                             Artikel
-                        </a>
+                        </a> -->
                         <a href="{{ route('event.index') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
                             Event
                         </a>

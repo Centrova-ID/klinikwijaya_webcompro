@@ -35,7 +35,7 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {{-- 1. VISI & MISI --}}
+            {{-- 1. VISI & MISI --} 
             <div class="bg-white border border-gray-200 p-8 rounded-xl">
                 <div class="mb-4">
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">Visi & Misi</h3>
@@ -55,17 +55,7 @@
                 </p>
             </div>
 
-            {{-- 3. MENGUTAMAKAN KEMANDIRIAN --}}
-            <div class="bg-white border border-gray-200 p-8 rounded-xl">
-                <div class="mb-4">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Mengutamakan Kemandirian</h3>
-                </div>
-                <p class="text-gray-600 leading-relaxed">
-                    Kami memahami, bahwa pasien pasca stroke tidak hanya membutuhkan pemulihan tetapi juga mendapatkan kembali kemandirian, oleh karena itu kami telah memiliki program rehabilitasi untuk mengembalikan kemandirian.
-                </p>
-            </div>
-
-            {{-- 4. PELAYANAN TERBAIK --}}
+            {{-- 3. PELAYANAN TERBAIK --}}
             <div class="bg-white border border-gray-200 p-8 rounded-xl">
                 <div class="mb-4">
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">Pelayanan Terbaik</h3>
@@ -75,7 +65,7 @@
                 </p>
             </div>
             
-            {{-- 6. LOKASI STRATEGIS --}}
+            {{-- 4. LOKASI STRATEGIS --}}
             <div class="bg-white border border-gray-200 p-8 rounded-xl">
                 <div class="mb-4">
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">Lokasi Strategis</h3>
@@ -93,24 +83,23 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
 
-        {{-- Grid Dokter (Responsive) --}}
-        <div class="grid grid-cols-3 gap-6 md:gap-12" data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
-            @for($i = 3; $i <= 3; $i++)
-            <div class="group relative">
-                <div class="rounded-lg lg:rounded-2xl overflow-hidden bg-gradient-to-b from-neutral-100 to-transparent aspect-square">
-                    <div class="w-full h-full flex items-center justify-center">
-                        <img 
-                            src="{{ asset("assts/img/doctors/doctor ($i).png") }}" 
-                            alt="Dokter Spesialis Klinik Wijaya" 
-                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                            loading="lazy"
-                            onerror="this.src='{{ asset('assts/img/placeholder-doctor.jpg') }}'"
-                        >
-                    </div>
+        {{-- Single Doctor Card (centered) --}}
+        <div class="flex justify-center" data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden max-w-4xl w-full flex flex-col md:flex-row items-center">
+                <div class="w-full md:w-1/2">
+                    <img
+                        src="{{ asset('assts/img/doctors/doctor (3).png') }}"
+                        alt="Dr. Erik Setiawan, SpKFR"
+                        class="w-full h-72 md:h-full object-cover"
+                        loading="lazy"
+                        onerror="this.src='{{ asset('assts/img/placeholder-doctor.jpg') }}'"
+                    >
+                </div>
+                <div class="p-8 md:w-1/2 text-center md:text-left">
+                    <h3 class="text-2xl font-semibold text-gray-800">Dr. Erik Setiawan, SpKFR</h3>
+                    <p class="text-gray-600 mt-2">Spesialis Kedokteran Fisik dan Rehabilitasi</p>
                 </div>
             </div>
-            <p>Dr. Erik Setiawan, SpKFR</p>
-            @endfor
         </div>
     </div>
 </Section>  

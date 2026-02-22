@@ -5,8 +5,8 @@
 
 @section('content')
 
-<!-- Hero Section dengan Background Image -->
-<section class="relative h-[500px] bg-cover bg-center" style="background-image: linear-gradient(rgba(63, 84, 153, 0.7), rgba(122, 198, 228, 0.7)), url('/public/assts/img/aquatic-hero.jpg');">
+<!-- Hero Section dengan Background Image (full-bleed, full-height) -->
+<section class="relative w-full min-h-screen bg-cover bg-center bg-no-repeat box-border border-2 border-white/20" style="background-image: linear-gradient(to right, rgba(63, 84, 153, 0.85), rgba(122, 198, 228, 0.85)), url('{{ asset('assts/img/0/hidroterapi/hidroterapi-2.webp') }}');">
     <div class="absolute inset-0 flex items-center justify-center">
         <div class="text-center text-white px-4">
             <h1 class="font-americana-bold text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up">Aquatic Rehabilitation</h1>
@@ -33,7 +33,7 @@
 <!-- Intro Banner -->
 <section class="py-12 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] text-white">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">Transformasi Pemulihan: Mengapa Air Menjadi Media Terapi Terbaik?</h2>
+        <h2 class="font-americana text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">Mengapa Air Menjadi Media Terapi Terbaik?</h2>
         <p class="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="100">
             Bagi pasien pasca-stroke, setiap gerakan adalah sebuah kemenangan. Klinik Wijaya menghadirkan rehabilitasi akuatik yang memanfaatkan prinsip fisika air untuk menciptakan lingkungan terapi yang aman sekaligus menantang secara fisik.
         </p>
@@ -45,25 +45,21 @@
     <div class="container mx-auto px-4">
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
-                <span class="inline-block px-4 py-2 bg-[#3F5499]/10 text-[#3F5499] rounded-full text-sm font-semibold mb-4">REHABILITASI MEDIS BERBASIS AIR</span>
                 <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-6">Apa Itu Aquatic Rehabilitation?</h2>
                 <p class="text-lg text-gray-600 mb-4 leading-relaxed">
                     Rehabilitasi akuatik adalah program terapi latihan yang dilakukan di dalam air dengan suhu terkontrol (sekitar 32°C - 34°C). Terapi ini dipandu langsung oleh dokter spesialis Kedokteran Fisik dan Rehabilitasi (Sp.KFR) serta fisioterapis yang terlatih secara khusus untuk memanfaatkan prinsip fisika air demi tujuan medis.
                 </p>
-                <p class="text-lg text-gray-600 leading-relaxed">
-                    Berbeda dengan sekadar berenang, rehabilitasi akuatik adalah <span class="font-semibold text-[#3F5499]">sains gerak yang memanfaatkan elemen alam</span> untuk melampaui keterbatasan fisik yang dialami pasien pasca-stroke.
-                </p>
             </div>
             <div data-aos="fade-left" data-aos-delay="100">
                 <div class="rounded-xl overflow-hidden shadow-lg">
-                    <img src="/public/assts/img/aquatic-pool.jpg" alt="Kolam Hidroterapi Klinik Wijaya" class="w-full h-full object-cover">
+                    <img src="{{ asset('assts/img/0/hidroterapi/hidroterapi-2.webp') }}" alt="Kolam Hidroterapi Klinik Wijaya" class="w-full h-full object-cover">
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Problem Statement Section -->
+<!-- Problem Statement Section
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
@@ -80,7 +76,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- 4 Keunggulan Akuatik -->
 <section class="py-16 bg-white">
@@ -208,7 +204,7 @@
     </div>
 </section>
 
-<!-- Visual Experience Section -->
+<!-- Visual Experience Section
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
@@ -219,7 +215,7 @@
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
-            <!-- Visual 1 -->
+            <!-- Visual 1 
             <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="100">
                 <div class="h-56 bg-gray-200">
                     <img src="/public/assts/img/buoyancy-therapy.jpg" alt="Gaya Apung dalam Terapi" class="w-full h-full object-cover">
@@ -230,7 +226,7 @@
                 </div>
             </div>
 
-            <!-- Visual 2 -->
+            <!-- Visual 2 
             <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="200">
                 <div class="h-56 bg-gray-200">
                     <img src="/public/assts/img/water-resistance.jpg" alt="Resistensi Air" class="w-full h-full object-cover">
@@ -241,7 +237,7 @@
                 </div>
             </div>
 
-            <!-- Visual 3 -->
+            <!-- Visual 3 
             <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="300">
                 <div class="h-56 bg-gray-200">
                     <img src="/public/assts/img/warm-water-therapy.jpg" alt="Terapi Air Hangat" class="w-full h-full object-cover">
@@ -253,15 +249,14 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Private Facility Section -->
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-12">
-                <span class="inline-block px-4 py-2 bg-[#3F5499]/10 text-[#3F5499] rounded-full text-sm font-semibold mb-4" data-aos="fade-up">FASILITAS PREMIUM</span>
-                <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up" data-aos-delay="100">Kolam Hidroterapi Privat: Keamanan dan Privasi Tanpa Kompromi</h2>
+                <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-aos="fade-up" data-aos-delay="100">Keamanan dan Privasi Tanpa Kompromi</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                     Kami memahami bahwa kenyamanan psikologis sangat berpengaruh pada hasil terapi. Klinik Wijaya menyediakan fasilitas yang dirancang khusus untuk kebutuhan medis Anda.
                 </p>
@@ -270,7 +265,7 @@
             <div class="grid md:grid-cols-2 gap-8 mb-12">
                 <!-- Facility Image -->
                 <div class="rounded-xl overflow-hidden shadow-lg" data-aos="fade-right">
-                    <img src="/public/assts/img/private-pool.jpg" alt="Kolam Hidroterapi Privat" class="w-full h-full object-cover">
+                    <img src="{{ asset('assts/img/0/hidroterapi/hidroterapi-8.webp') }}" alt="Kolam Hidroterapi Privat" class="w-full h-full object-cover">
                 </div>
 
                 <!-- Facility Features -->
@@ -314,7 +309,7 @@
             </div>
 
             <!-- Additional Facility Images -->
-            <div class="grid md:grid-cols-3 gap-6">
+            <!-- <div class="grid md:grid-cols-3 gap-6">
                 <div class="rounded-xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="100">
                     <img src="/public/assts/img/pool-hoist.jpg" alt="Sistem Hoist" class="w-full h-64 object-cover">
                     <div class="p-4 bg-white">
@@ -336,7 +331,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Synergy Section -->
 <section class="py-16 bg-gradient-to-br from-[#3F5499]/5 to-[#7AC6E4]/5">
@@ -345,7 +340,7 @@
             <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-6" data-aos="fade-up">Sinergi Teknologi Robotik dan Rehabilitasi Akuatik</h2>
             <div class="bg-white rounded-xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="100">
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    Rehabilitasi akuatik bukan sekadar berenang; ini adalah <span class="font-bold text-[#3F5499]">sains gerak yang memanfaatkan elemen alam</span> untuk melampaui keterbatasan fisik.
+                    Rehabilitasi akuatik bukan sekadar berenang, ini adalah <span class="font-bold text-[#3F5499]">sains gerak yang memanfaatkan elemen alam</span> untuk melampaui keterbatasan fisik.
                 </p>
                 <div class="bg-gradient-to-r from-[#3F5499]/10 to-[#7AC6E4]/10 rounded-lg p-6 border-l-4 border-[#3F5499]">
                     <p class="text-lg text-gray-800 italic font-medium">
@@ -411,33 +406,6 @@
     </div>
 </section>
 
-<!-- Medical Team Section -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4">
-        <div class="max-w-5xl mx-auto">
-            <div class="bg-white rounded-xl p-8 shadow-lg" data-aos="fade-up">
-                <div class="text-center mb-8">
-                    <h2 class="font-americana text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tim Medis Berpengalaman</h2>
-                    <p class="text-lg text-gray-600">Dipandu oleh spesialis dan terapis terlatih</p>
-                </div>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="border-l-4 border-[#3F5499] pl-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Dokter Spesialis Kedokteran Fisik dan Rehabilitasi (Sp.KFR)</h3>
-                        <p class="text-gray-600 leading-relaxed">
-                            Merancang program terapi individual berdasarkan evaluasi medis komprehensif dan memantau progres klinis secara berkala.
-                        </p>
-                    </div>
-                    <div class="border-l-4 border-[#7AC6E4] pl-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Fisioterapis Bersertifikat Aquatic Therapy</h3>
-                        <p class="text-gray-600 leading-relaxed">
-                            Terlatih secara khusus untuk memanfaatkan prinsip fisika air dalam konteks medis dan keselamatan pasien di lingkungan akuatik.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- CTA Section -->
 <section class="py-16 bg-gradient-to-r from-[#3F5499] to-[#7AC6E4] text-white">
