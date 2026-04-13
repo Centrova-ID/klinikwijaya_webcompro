@@ -47,9 +47,11 @@
                                 <a href="{{ route('admin.articles.edit', $article) }}" class="text-[#3F5499] font-bold text-sm hover:underline">
                                     EDIT
                                 </a>
+{{-- 
                                 <a href="{{ route('artikel.show', $article->slug) }}" target="_blank" class="text-gray-700 font-bold text-sm hover:underline">
                                     LIHAT
                                 </a>
+--}}
                                 <form action="{{ route('admin.articles.destroy', $article) }}" method="POST" class="inline" onsubmit="return confirm('Yakin ingin menghapus artikel ini?')">
                                     @csrf
                                     @method('DELETE')

@@ -11,11 +11,9 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        // $articlesCount = Article::count();
-        $articlesCount = 0;
+        $articlesCount = Article::count();
         $eventsCount = Event::count();
-        // $recentArticles = Article::with('user')->latest()->take(5)->get();
-        $recentArticles = collect();
+        $recentArticles = Article::with('user')->latest()->take(5)->get();
         $recentEvents = Event::with('user')->latest()->take(5)->get();
 
         return view('admin.dashboard', compact('articlesCount', 'eventsCount', 'recentArticles', 'recentEvents'));

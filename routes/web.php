@@ -14,7 +14,55 @@ use App\Http\Controllers\EventController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
-// Main website routes
+// Admin Routes logic
+$adminRoutes = function () {
+    // Root subdomain - check auth and redirect
+    Route::get('/', function () {
+        if (Auth::check()) {
+            return redirect()->route('admin.dashboard');
+        }
+        return redirect()->route('login');
+    })->name('admin.home.index');
+
+    // Auth routes untuk subdomain/prefix
+    require __DIR__ . '/auth.php';
+
+    // Admin Routes
+    Route::middleware(['auth'])->group(function () {
+        Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+
+        // Article Management
+        Route::prefix('articles')->name('admin.articles.')->group(function () {
+            Route::get('/', [AdminArticleController::class, 'index'])->name('index');
+            Route::get('/create', [AdminArticleController::class, 'create'])->name('create');
+            Route::post('/', [AdminArticleController::class, 'store'])->name('store');
+            Route::post('/upload-image', [AdminArticleController::class, 'uploadImage'])->name('upload-image');
+            Route::get('/{article}/edit', [AdminArticleController::class, 'edit'])->name('edit');
+            Route::put('/{article}', [AdminArticleController::class, 'update'])->name('update');
+            Route::delete('/{article}', [AdminArticleController::class, 'destroy'])->name('destroy');
+        });
+
+        // Event Management
+        Route::prefix('events')->name('admin.events.')->group(function () {
+            Route::get('/', [AdminEventController::class, 'index'])->name('index');
+            Route::get('/create', [AdminEventController::class, 'create'])->name('create');
+            Route::post('/', [AdminEventController::class, 'store'])->name('store');
+            Route::get('/{event}/edit', [AdminEventController::class, 'edit'])->name('edit');
+            Route::put('/{event}', [AdminEventController::class, 'update'])->name('update');
+            Route::delete('/{event}', [AdminEventController::class, 'destroy'])->name('destroy');
+        });
+    });
+};
+
+// Register via Domain if specified
+if ($adminDomain = env('APP_ADMIN_DOMAIN')) {
+    Route::domain($adminDomain)->group($adminRoutes);
+}
+
+// Fallback / Alternative /admin prefix
+Route::prefix('admin')->group($adminRoutes);
+
+// Main website routes (klinikwijaya.test)
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // SEO Routes
@@ -23,44 +71,8 @@ Route::get('/sitemap.xml', [App\Http\Controllers\SitemapController::class, 'inde
 // Redirect plain /layanan to home
 Route::get('/layanan', function () {
     return redirect()->route('home');
-})->name('layanan');
-
-// Auth Routes (Login, Register, etc.)
-require __DIR__ . '/auth.php';
-
-// Admin Routes - Unified on main domain with /admin prefix
-Route::middleware(['auth'])->prefix('admin')->group(function () {
-    Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
-
-    Route::get('/', function () {
-        return redirect()->route('admin.dashboard');
-    });
-
-    // Article Management (Disabled/Commented out based on previous request)
-    /*
-    Route::prefix('articles')->name('admin.articles.')->group(function () {
-        Route::get('/', [AdminArticleController::class, 'index'])->name('index');
-        Route::get('/create', [AdminArticleController::class, 'create'])->name('create');
-        Route::post('/', [AdminArticleController::class, 'store'])->name('store');
-        Route::post('/upload-image', [AdminArticleController::class, 'uploadImage'])->name('upload-image');
-        Route::get('/{article}/edit', [AdminArticleController::class, 'edit'])->name('edit');
-        Route::put('/{article}', [AdminArticleController::class, 'update'])->name('update');
-        Route::delete('/{article}', [AdminArticleController::class, 'destroy'])->name('destroy');
-    });
-    */
-
-    // Event Management
-    Route::prefix('events')->name('admin.events.')->group(function () {
-        Route::get('/', [AdminEventController::class, 'index'])->name('index');
-        Route::get('/create', [AdminEventController::class, 'create'])->name('create');
-        Route::post('/', [AdminEventController::class, 'store'])->name('store');
-        Route::get('/{event}/edit', [AdminEventController::class, 'edit'])->name('edit');
-        Route::put('/{event}', [AdminEventController::class, 'update'])->name('update');
-        Route::delete('/{event}', [AdminEventController::class, 'destroy'])->name('destroy');
-    });
 });
 
-// Legacy/Fallback /dashboard redirect
 Route::get('/dashboard', function () {
     return redirect()->route('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -80,40 +92,52 @@ Route::prefix('layanan')->group(function () {
     Route::get('/musculosceletal', [LayananController::class, 'musculosceletal'])->name('layanan.musculosceletal');
 });
 
-// Static Pages
+// Fasilitas Route
 Route::get('/fasilitas', [FasilitasController::class, 'index'])->name('fasilitas');
+
+// Tentang Kami Route
 Route::get('/tentang-kami', [TentangController::class, 'index'])->name('tentang-kami');
+
+// Gallery Route
 Route::get('/gallery', [GalleryController::class, 'index'])->name('galeri');
+
+// Buat Janji Route
 Route::get('/buat-janji', function () {
     return view('buat_janji.index');
 })->name('buat-janji');
 
-// Public Artikel Routes (Disabled Logic handled in controller)
+// Artikel Routes
+/*
 Route::prefix('artikel')->group(function () {
     Route::get('/', [ArticleController::class, 'index'])->name('artikel.index');
     Route::get('/kategori/{slug}', [ArticleController::class, 'category'])->name('artikel.category');
     Route::get('/{slug}', [ArticleController::class, 'show'])->name('artikel.show');
 });
+*/
 
-// Public Event Routes
+// Event Routes
 Route::prefix('event')->group(function () {
     Route::get('/', [EventController::class, 'index'])->name('event.index');
     Route::get('/{slug}', [EventController::class, 'show'])->name('event.show');
 });
 
-// Profile Routes
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-// Font helper
+// Admin Routes - Prefix /admin diatur di atas lewat $adminRoutes logic
+
+use Illuminate\Support\Facades\Response;
+
 Route::get('/fonts/{file}', function ($file) {
     $path = public_path('fonts/' . $file);
+
     if (!file_exists($path)) {
         abort(404);
     }
+
     return response()->file($path, [
         'Content-Type' => 'font/woff2',
         'Cache-Control' => 'public, max-age=31536000',

@@ -37,25 +37,13 @@ class SitemapController extends Controller
                 'lastmod' => Carbon::now()->toIso8601String(),
             ],
             [
-                'url' => route('layanan.stroke-rehabilitation'),
-                'changefreq' => 'monthly',
-                'priority' => '0.9',
-                'lastmod' => Carbon::now()->toIso8601String(),
-            ],
-            [
                 'url' => route('layanan.terapi-robotik'),
                 'changefreq' => 'monthly',
                 'priority' => '0.9',
                 'lastmod' => Carbon::now()->toIso8601String(),
             ],
             [
-                'url' => route('layanan.aquatic-rehabilitation'),
-                'changefreq' => 'monthly',
-                'priority' => '0.8',
-                'lastmod' => Carbon::now()->toIso8601String(),
-            ],
-            [
-                'url' => route('layanan.musculosceletal'),
+                'url' => route('layanan.fisioterapi'),
                 'changefreq' => 'monthly',
                 'priority' => '0.8',
                 'lastmod' => Carbon::now()->toIso8601String(),
@@ -72,16 +60,9 @@ class SitemapController extends Controller
                 'priority' => '0.7',
                 'lastmod' => Carbon::now()->toIso8601String(),
             ],
-            [
-                'url' => route('buat-janji'),
-                'changefreq' => 'monthly',
-                'priority' => '0.7',
-                'lastmod' => Carbon::now()->toIso8601String(),
-            ],
         ];
 
-        /*
-        // Dynamic pages - Articles
+        /* Dynamic pages - Articles (Deactivated)
         $articles = Article::where('is_published', true)
             ->latest('updated_at')
             ->get()
@@ -94,7 +75,6 @@ class SitemapController extends Controller
                 ];
             });
         */
-        $articles = collect();
 
         // Dynamic pages - Events
         $events = Event::where('is_published', true)
@@ -111,7 +91,7 @@ class SitemapController extends Controller
 
         // Merge all pages
         $urls = collect($staticPages)
-            ->merge($articles)
+            // ->merge($articles)
             ->merge($events);
 
         // Generate XML
