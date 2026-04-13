@@ -9,8 +9,21 @@ class GalleryController extends Controller
 {
     public function index()
     {
-        // Ambil semua gambar dari folder gallery
-        $galleryPath = public_path('assts/img/gallery');
+        // Path relative to public root
+        $galleryFolder = 'assts/img/gallery';
+        
+        // Cek path dari ENV atau fallback ke public_path() standar
+        $publicPath = env('APP_PUBLIC_PATH') ?: public_path();
+        $galleryPath = $publicPath . DIRECTORY_SEPARATOR . $galleryFolder;
+
+        // Fallback otomatis untuk cPanel (public_html) jika path standar tidak ditemukan
+        if (!File::exists($galleryPath) && !env('APP_PUBLIC_PATH')) {
+            $cpanelPath = base_path('public_html' . DIRECTORY_SEPARATOR . $galleryFolder);
+            if (File::exists($cpanelPath)) {
+                $galleryPath = $cpanelPath;
+            }
+        }
+
         $galleryImages = [];
 
         if (File::exists($galleryPath)) {
