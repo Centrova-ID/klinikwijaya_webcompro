@@ -56,7 +56,7 @@
             {{-- 2. Ruang Terapi --}}
             <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div class="aspect-[4/3] overflow-hidden">
-                        <img src="{{ asset('assts/img/facilities/ruang-terapi.jpg') }}" loading="lazy" alt="Ruang Terapi" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    <img src="{{ asset('assts/img/facilities/ruang-terapi.jpg') }}" loading="lazy" alt="Ruang Terapi" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-bold text-gray-900 text-center">Ruang Terapi</h3>
