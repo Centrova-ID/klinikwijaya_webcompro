@@ -23,7 +23,7 @@ Route::get('/sitemap.xml', [App\Http\Controllers\SitemapController::class, 'inde
 // Redirect plain /layanan to home
 Route::get('/layanan', function () {
     return redirect()->route('home');
-});
+})->name('layanan');
 
 // Auth Routes (Login, Register, etc.)
 require __DIR__ . '/auth.php';

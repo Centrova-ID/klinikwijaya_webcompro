@@ -37,13 +37,25 @@ class SitemapController extends Controller
                 'lastmod' => Carbon::now()->toIso8601String(),
             ],
             [
+                'url' => route('layanan.stroke-rehabilitation'),
+                'changefreq' => 'monthly',
+                'priority' => '0.9',
+                'lastmod' => Carbon::now()->toIso8601String(),
+            ],
+            [
                 'url' => route('layanan.terapi-robotik'),
                 'changefreq' => 'monthly',
                 'priority' => '0.9',
                 'lastmod' => Carbon::now()->toIso8601String(),
             ],
             [
-                'url' => route('layanan.fisioterapi'),
+                'url' => route('layanan.aquatic-rehabilitation'),
+                'changefreq' => 'monthly',
+                'priority' => '0.8',
+                'lastmod' => Carbon::now()->toIso8601String(),
+            ],
+            [
+                'url' => route('layanan.musculosceletal'),
                 'changefreq' => 'monthly',
                 'priority' => '0.8',
                 'lastmod' => Carbon::now()->toIso8601String(),
@@ -57,6 +69,12 @@ class SitemapController extends Controller
             [
                 'url' => route('galeri'),
                 'changefreq' => 'weekly',
+                'priority' => '0.7',
+                'lastmod' => Carbon::now()->toIso8601String(),
+            ],
+            [
+                'url' => route('buat-janji'),
+                'changefreq' => 'monthly',
                 'priority' => '0.7',
                 'lastmod' => Carbon::now()->toIso8601String(),
             ],
