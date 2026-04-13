@@ -62,6 +62,7 @@ class SitemapController extends Controller
             ],
         ];
 
+        /*
         // Dynamic pages - Articles
         $articles = Article::where('is_published', true)
             ->latest('updated_at')
@@ -74,6 +75,8 @@ class SitemapController extends Controller
                     'lastmod' => $article->updated_at->toIso8601String(),
                 ];
             });
+        */
+        $articles = collect();
 
         // Dynamic pages - Events
         $events = Event::where('is_published', true)

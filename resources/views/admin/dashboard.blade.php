@@ -12,7 +12,7 @@
 
 {{-- Statistics Cards --}}
 <div class="grid md:grid-cols-4 gap-4 mb-8">
-    {{-- Total Articles --}}
+    {{-- Total Articles 
     <div class="bg-white border border-gray-300 px-5 py-4">
         <div class="mb-3">
             <p class="text-sm text-gray-700 font-semibold mb-1">TOTAL ARTIKEL</p>
@@ -21,7 +21,7 @@
         <a href="{{ route('admin.articles.index') }}" class="text-[#3F5499] font-bold hover:underline block">
             LIHAT SEMUA →
         </a>
-    </div>
+    </div> --}}
 
     {{-- Total Events --}}
     <div class="bg-white border border-gray-300 px-5 py-4">
@@ -34,7 +34,7 @@
         </a>
     </div>
 
-    {{-- Published Articles --}}
+    {{-- Published Articles 
     <div class="bg-white border border-gray-300 px-5 py-4">
         <div class="mb-3">
             <p class="text-sm text-gray-700 font-semibold mb-1">PUBLISHED</p>
@@ -43,9 +43,9 @@
         <span class="text-sm font-bold text-green-700">
             STATUS: LIVE
         </span>
-    </div>
+    </div> --}}
 
-    {{-- Draft Articles --}}
+    {{-- Draft Articles 
     <div class="bg-white border border-gray-300 px-5 py-4">
         <div class="mb-3">
             <p class="text-sm text-gray-700 font-semibold mb-1">DRAFT</p>
@@ -54,12 +54,12 @@
         <span class="text-sm font-bold text-yellow-600">
             STATUS: DRAFT
         </span>
-    </div>
+    </div> --}}
 </div>
 
 {{-- Quick Actions --}}
 <div class="grid md:grid-cols-2 gap-4 mb-8">
-    <div class="bg-[#3F5499] text-white px-6 py-5">
+    {{-- <div class="bg-[#3F5499] text-white px-6 py-5">
         <div class="mb-3">
             <h3 class="text-xl font-bold mb-2">BUAT ARTIKEL BARU</h3>
             <p class="text-white/95">Tulis artikel kesehatan terbaru untuk website klinik</p>
@@ -67,7 +67,7 @@
         <a href="{{ route('admin.articles.create') }}" class="inline-block bg-white text-[#3F5499] px-5 py-2.5 font-bold hover:bg-gray-100">
             BUAT ARTIKEL
         </a>
-    </div>
+    </div> --}}
 
     <div class="bg-[#7AC6E4] text-gray-900 px-6 py-5">
         <div class="mb-3">
@@ -81,7 +81,7 @@
 </div>
 
 <div class="grid md:grid-cols-2 gap-6">
-    {{-- Recent Articles --}}
+    {{-- Recent Articles 
     <div class="bg-white border border-gray-300">
         <div class="px-6 py-4 bg-gray-50 border-b border-gray-300">
             <h3 class="text-lg font-bold text-gray-900">ARTIKEL TERBARU</h3>
@@ -123,7 +123,7 @@
                 LIHAT SEMUA ARTIKEL →
             </a>
         </div>
-    </div>
+    </div> --}}
 
     {{-- Recent Events --}}
     <div class="bg-white border border-gray-300">

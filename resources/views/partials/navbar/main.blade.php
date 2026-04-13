@@ -64,9 +64,9 @@
                         <a href="{{ route('tentang-kami') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
                             Tentang Kami
                         </a>
-                        <!-- <a href="{{ route('artikel.index') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
+                        {{-- <a href="{{ route('artikel.index') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
                             Artikel
-                        </a> -->
+                        </a> --}}
                         <a href="{{ route('event.index') }}" class="block px-4 py-2 text-base text-gray-700 hover:bg-[#3F5499]/10 hover:text-[#3F5499] rounded">
                             Event
                         </a>
@@ -126,7 +126,7 @@
                 </button>
                 <div class="hidden pl-4 space-y-1" id="tentang-submenu">
                     <a href="{{ route('tentang-kami') }}" class="block px-4 py-2 text-base text-gray-600 hover:text-[#3F5499]">Tentang Kami</a>
-                    <a href="{{ route('artikel.index') }}" class="block px-4 py-2 text-base text-gray-600 hover:text-[#3F5499]">Artikel</a>
+                    {{-- <a href="{{ route('artikel.index') }}" class="block px-4 py-2 text-base text-gray-600 hover:text-[#3F5499]">Artikel</a> --}}
                     <a href="{{ route('event.index') }}" class="block px-4 py-2 text-base text-gray-600 hover:text-[#3F5499]">Event</a>
                 </div>
             </div>

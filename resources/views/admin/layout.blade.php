@@ -33,9 +33,9 @@
                     <a href="{{ route('admin.dashboard') }}" class="py-1.5 px-3 font-medium text-sm {{ request()->routeIs('admin.dashboard') ? 'text-[#3F5499] bg-neutral-200' : 'text-gray-500 hover:bg-neutral-100' }}">
                         Dashboard
                     </a>
-                    <a href="{{ route('admin.articles.index') }}" class="py-1.5 px-3 font-medium text-sm {{ request()->routeIs('admin.articles.*') ? 'text-[#3F5499] bg-neutral-200' : 'text-gray-500 hover:bg-neutral-100' }}">
+                    {{-- <a href="{{ route('admin.articles.index') }}" class="py-1.5 px-3 font-medium text-sm {{ request()->routeIs('admin.articles.*') ? 'text-[#3F5499] bg-neutral-200' : 'text-gray-500 hover:bg-neutral-100' }}">
                         Artikel
-                    </a>
+                    </a> --}}
                     <a href="{{ route('admin.events.index') }}" class="py-1.5 px-3 font-medium text-sm {{ request()->routeIs('admin.events.*') ? 'text-[#3F5499] bg-neutral-200' : 'text-gray-500 hover:bg-neutral-100' }}">
                         Event
                     </a>

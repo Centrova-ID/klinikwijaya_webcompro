@@ -26,10 +26,13 @@ class HomeController extends Controller
         }
 
         // Ambil 3 artikel terbaru yang published
+        /*
         $articles = Article::where('status', 'published')
             ->latest('published_at')
             ->take(3)
             ->get();
+        */
+        $articles = collect(); // Pass empty collection to avoid view errors
 
         return view('index', compact('galleryImages', 'articles'));
     }
