@@ -139,14 +139,14 @@
                         </div>
                         <div>
                             <div class="flex items-center gap-2">
-                                <span class="text-xl font-bold text-gray-900">4.8</span>
+                                <span class="text-xl font-bold text-gray-900">5.0</span>
                                 <div class="flex text-yellow-400">
                                     @for($i=0; $i<5; $i++)
                                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.966a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.286 3.966c.3.921-.755 1.688-1.54 1.118L10 13.347l-3.897 2.716c-.785.57-1.84-.197-1.54-1.118l1.286-3.966a1 1 0 00-.364-1.118L2.12 9.393c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69L9.049 2.927z"/></svg>
                                     @endfor
                                 </div>
                             </div>
-                            <p class="text-xs text-gray-500 font-medium uppercase tracking-wider">Berdasarkan 150+ Ulasan Pasien</p>
+                            <p class="text-xs text-gray-500 font-medium uppercase tracking-wider">Ulasan Terverifikasi Google</p>
                         </div>
                     </div>
                     <a href="https://maps.google.com/?q=Klinik+Wijaya+Jakarta" target="_blank" class="px-5 py-2.5 bg-gray-900 text-white text-sm font-semibold rounded-xl hover:bg-gray-800 transition-all flex items-center gap-2">
@@ -157,7 +157,7 @@
 
                 {{-- The Real Widget --}}
                 <div class="p-4 md:p-8 min-h-[300px]">
-                    <script defer async src='https://cdn.trustindex.io/loader-cert.js?f7d500664e515764f326a479870'></script>                
+                    <script defer async src='https://cdn.trustindex.io/loader.js?70eb5f9699135533b6264539ded'></script>                
                 </div>
 
                 {{-- Bottom Info --}}
